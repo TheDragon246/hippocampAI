@@ -1,0 +1,766 @@
+sh: line 1: logger: command not found
+/apps/conda/25.3.1/etc/profile.d/conda.sh: line 69: dirname: command not found
+/apps/conda/25.3.1/etc/profile.d/conda.sh: line 69: dirname: command not found
+/apps/conda/25.3.1/etc/profile.d/mamba.sh: line 59: basename: command not found
+Error unknown MAMBA_EXE: "/apps/conda/25.3.1/bin/mamba", filename must be mamba or micromamba
+Lmod has detected the following error: This module can only be used on RHEL9 nodes. 
+While processing the following module(s):
+    Module fullname  Module Filename
+    ---------------  ---------------
+    gcc/14.2.0       /apps/lmod/modulefiles/core/gcc/14.2.0.lua
+
+pointnet_parahippocampus_fs_37.py
+/blue/stevenweisberg/ashishkumarsahoo/hippocampAI/conda_pyg_070923/lib/python3.8/site-packages/torch/cuda/__init__.py:155: UserWarning: 
+NVIDIA B200 with CUDA capability sm_100 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 sm_80 sm_86 compute_37.
+If you want to use the NVIDIA B200 GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+Number of GPUs available for training: 1
+Fold 1
+Epoch: 00, Training Loss: 0.0894, Train MSE: 0.0894, r (train): 0.2071, Test MSE: 0.0645, r (test): 0.3232
+Epoch: 01, Training Loss: 0.0737, Train MSE: 0.0737, r (train): 0.2865, Test MSE: 0.0619, r (test): 0.2205
+Epoch: 02, Training Loss: 0.0688, Train MSE: 0.0688, r (train): 0.3568, Test MSE: 0.0663, r (test): 0.1350
+Epoch: 03, Training Loss: 0.0660, Train MSE: 0.0660, r (train): 0.4255, Test MSE: 0.0763, r (test): 0.0776
+Epoch: 04, Training Loss: 0.0673, Train MSE: 0.0673, r (train): 0.4494, Test MSE: 0.0813, r (test): 0.0848
+Epoch: 05, Training Loss: 0.0665, Train MSE: 0.0665, r (train): 0.4764, Test MSE: 0.0858, r (test): 0.0769
+Epoch: 06, Training Loss: 0.0672, Train MSE: 0.0672, r (train): 0.5045, Test MSE: 0.0917, r (test): 0.0491
+Epoch: 07, Training Loss: 0.0701, Train MSE: 0.0701, r (train): 0.5216, Test MSE: 0.0992, r (test): 0.0456
+Epoch: 08, Training Loss: 0.0705, Train MSE: 0.0705, r (train): 0.5464, Test MSE: 0.1054, r (test): 0.0315
+Epoch: 09, Training Loss: 0.0724, Train MSE: 0.0724, r (train): 0.5635, Test MSE: 0.1071, r (test): 0.0451
+Epoch: 10, Training Loss: 0.0596, Train MSE: 0.0596, r (train): 0.6279, Test MSE: 0.1068, r (test): 0.0170
+Epoch: 11, Training Loss: 0.0664, Train MSE: 0.0664, r (train): 0.6075, Test MSE: 0.1167, r (test): -0.0240
+Epoch: 12, Training Loss: 0.0595, Train MSE: 0.0595, r (train): 0.6644, Test MSE: 0.1197, r (test): -0.0568
+Epoch: 13, Training Loss: 0.0580, Train MSE: 0.0580, r (train): 0.5665, Test MSE: 0.1396, r (test): -0.1469
+Epoch: 14, Training Loss: 0.0776, Train MSE: 0.0776, r (train): 0.5982, Test MSE: 0.1443, r (test): 0.0145
+Epoch: 15, Training Loss: 0.0770, Train MSE: 0.0770, r (train): 0.6129, Test MSE: 0.1404, r (test): -0.0459
+Epoch: 16, Training Loss: 0.0655, Train MSE: 0.0655, r (train): 0.6823, Test MSE: 0.1298, r (test): -0.0646
+Epoch: 17, Training Loss: 0.0674, Train MSE: 0.0674, r (train): 0.6310, Test MSE: 0.1487, r (test): -0.0864
+Epoch: 18, Training Loss: 0.0601, Train MSE: 0.0601, r (train): 0.7171, Test MSE: 0.1505, r (test): -0.1027
+Epoch: 19, Training Loss: 0.0535, Train MSE: 0.0535, r (train): 0.6998, Test MSE: 0.1569, r (test): -0.0630
+Epoch: 20, Training Loss: 0.0559, Train MSE: 0.0559, r (train): 0.7677, Test MSE: 0.1739, r (test): -0.0596
+Epoch: 21, Training Loss: 0.0459, Train MSE: 0.0459, r (train): 0.7818, Test MSE: 0.1707, r (test): -0.0762
+Epoch: 22, Training Loss: 0.0517, Train MSE: 0.0517, r (train): 0.7875, Test MSE: 0.1809, r (test): -0.0691
+Epoch: 23, Training Loss: 0.0522, Train MSE: 0.0522, r (train): 0.7949, Test MSE: 0.1733, r (test): -0.0884
+Epoch: 24, Training Loss: 0.0476, Train MSE: 0.0476, r (train): 0.7945, Test MSE: 0.1709, r (test): -0.0773
+Epoch: 25, Training Loss: 0.0542, Train MSE: 0.0542, r (train): 0.7700, Test MSE: 0.1638, r (test): -0.0755
+Epoch: 26, Training Loss: 0.0499, Train MSE: 0.0499, r (train): 0.7977, Test MSE: 0.1583, r (test): -0.0627
+Epoch: 27, Training Loss: 0.0281, Train MSE: 0.0281, r (train): 0.8128, Test MSE: 0.1653, r (test): -0.1244
+Epoch: 28, Training Loss: 0.0542, Train MSE: 0.0542, r (train): 0.8342, Test MSE: 0.1845, r (test): -0.1109
+Epoch: 29, Training Loss: 0.0380, Train MSE: 0.0380, r (train): 0.7735, Test MSE: 0.1736, r (test): -0.1064
+Epoch: 30, Training Loss: 0.0427, Train MSE: 0.0427, r (train): 0.8259, Test MSE: 0.1624, r (test): -0.0688
+Epoch: 31, Training Loss: 0.0353, Train MSE: 0.0353, r (train): 0.8685, Test MSE: 0.1599, r (test): -0.1180
+Epoch: 32, Training Loss: 0.0336, Train MSE: 0.0336, r (train): 0.8783, Test MSE: 0.1691, r (test): -0.1051
+Epoch: 33, Training Loss: 0.0291, Train MSE: 0.0291, r (train): 0.8404, Test MSE: 0.1467, r (test): -0.1155
+Epoch: 34, Training Loss: 0.0260, Train MSE: 0.0260, r (train): 0.8489, Test MSE: 0.1530, r (test): -0.0817
+Epoch: 35, Training Loss: 0.0231, Train MSE: 0.0231, r (train): 0.8426, Test MSE: 0.1417, r (test): -0.1530
+Epoch: 36, Training Loss: 0.0225, Train MSE: 0.0225, r (train): 0.8457, Test MSE: 0.1534, r (test): -0.1247
+Epoch: 37, Training Loss: 0.0183, Train MSE: 0.0183, r (train): 0.8736, Test MSE: 0.1306, r (test): -0.1273
+Epoch: 38, Training Loss: 0.0433, Train MSE: 0.0433, r (train): 0.7596, Test MSE: 0.1200, r (test): 0.0121
+Epoch: 39, Training Loss: 0.0194, Train MSE: 0.0194, r (train): 0.8873, Test MSE: 0.1220, r (test): -0.1103
+Epoch: 40, Training Loss: 0.0270, Train MSE: 0.0270, r (train): 0.8398, Test MSE: 0.1097, r (test): -0.0850
+Epoch: 41, Training Loss: 0.0278, Train MSE: 0.0278, r (train): 0.8262, Test MSE: 0.1070, r (test): -0.0551
+Epoch: 42, Training Loss: 0.0366, Train MSE: 0.0366, r (train): 0.8009, Test MSE: 0.1055, r (test): -0.1040
+Epoch: 43, Training Loss: 0.0275, Train MSE: 0.0275, r (train): 0.8334, Test MSE: 0.1177, r (test): -0.2264
+Epoch: 44, Training Loss: 0.0252, Train MSE: 0.0252, r (train): 0.8424, Test MSE: 0.1667, r (test): -0.4053
+Epoch: 45, Training Loss: 0.0236, Train MSE: 0.0236, r (train): 0.8715, Test MSE: 0.1464, r (test): -0.2577
+Epoch: 46, Training Loss: 0.0211, Train MSE: 0.0211, r (train): 0.8663, Test MSE: 0.1353, r (test): -0.2260
+Epoch: 47, Training Loss: 0.0377, Train MSE: 0.0377, r (train): 0.8089, Test MSE: 0.1336, r (test): -0.2102
+Epoch: 48, Training Loss: 0.0249, Train MSE: 0.0249, r (train): 0.8626, Test MSE: 0.1432, r (test): -0.3158
+Epoch: 49, Training Loss: 0.0376, Train MSE: 0.0376, r (train): 0.8285, Test MSE: 0.1633, r (test): -0.4007
+Epoch: 50, Training Loss: 0.0538, Train MSE: 0.0538, r (train): 0.8253, Test MSE: 0.2024, r (test): -0.4025
+Epoch: 51, Training Loss: 0.0907, Train MSE: 0.0907, r (train): 0.8359, Test MSE: 0.2306, r (test): -0.4012
+Epoch: 52, Training Loss: 0.1081, Train MSE: 0.1081, r (train): 0.8055, Test MSE: 0.2524, r (test): -0.3398
+Epoch: 53, Training Loss: 0.1275, Train MSE: 0.1275, r (train): 0.8050, Test MSE: 0.2756, r (test): -0.4201
+Epoch: 54, Training Loss: 0.1469, Train MSE: 0.1469, r (train): 0.7699, Test MSE: 0.2952, r (test): -0.3597
+Epoch: 55, Training Loss: 0.1722, Train MSE: 0.1722, r (train): 0.7769, Test MSE: 0.3330, r (test): -0.3176
+Epoch: 56, Training Loss: 0.1082, Train MSE: 0.1082, r (train): 0.7890, Test MSE: 0.2425, r (test): -0.2406
+Epoch: 57, Training Loss: 0.1069, Train MSE: 0.1069, r (train): 0.8306, Test MSE: 0.2539, r (test): -0.3159
+Epoch: 58, Training Loss: 0.0833, Train MSE: 0.0833, r (train): 0.8268, Test MSE: 0.2227, r (test): -0.1615
+Epoch: 59, Training Loss: 0.0715, Train MSE: 0.0715, r (train): 0.8435, Test MSE: 0.2191, r (test): -0.3207
+Epoch: 60, Training Loss: 0.0990, Train MSE: 0.0990, r (train): 0.7030, Test MSE: 0.1813, r (test): -0.0945
+Epoch: 61, Training Loss: 0.0365, Train MSE: 0.0365, r (train): 0.8665, Test MSE: 0.1581, r (test): -0.2289
+Epoch: 62, Training Loss: 0.0440, Train MSE: 0.0440, r (train): 0.7794, Test MSE: 0.1151, r (test): -0.1164
+Epoch: 63, Training Loss: 0.0264, Train MSE: 0.0264, r (train): 0.8916, Test MSE: 0.1276, r (test): -0.2405
+Epoch: 64, Training Loss: 0.0334, Train MSE: 0.0334, r (train): 0.8738, Test MSE: 0.1453, r (test): -0.2818
+Epoch: 65, Training Loss: 0.0318, Train MSE: 0.0318, r (train): 0.8783, Test MSE: 0.1497, r (test): -0.3131
+Epoch: 66, Training Loss: 0.0419, Train MSE: 0.0419, r (train): 0.8730, Test MSE: 0.1658, r (test): -0.3607
+Epoch: 67, Training Loss: 0.0812, Train MSE: 0.0812, r (train): 0.8579, Test MSE: 0.2121, r (test): -0.3696
+Epoch: 68, Training Loss: 0.1381, Train MSE: 0.1381, r (train): 0.8510, Test MSE: 0.2719, r (test): -0.3690
+Epoch: 69, Training Loss: 0.1649, Train MSE: 0.1649, r (train): 0.8436, Test MSE: 0.3100, r (test): -0.3869
+Epoch: 70, Training Loss: 0.1831, Train MSE: 0.1831, r (train): 0.8307, Test MSE: 0.3247, r (test): -0.3924
+Epoch: 71, Training Loss: 0.1534, Train MSE: 0.1534, r (train): 0.8327, Test MSE: 0.2862, r (test): -0.2912
+Epoch: 72, Training Loss: 0.0888, Train MSE: 0.0888, r (train): 0.8246, Test MSE: 0.2067, r (test): -0.2232
+Epoch: 73, Training Loss: 0.0659, Train MSE: 0.0659, r (train): 0.8195, Test MSE: 0.1707, r (test): -0.2393
+Epoch: 74, Training Loss: 0.0389, Train MSE: 0.0389, r (train): 0.7972, Test MSE: 0.1241, r (test): -0.1542
+Epoch: 75, Training Loss: 0.0282, Train MSE: 0.0282, r (train): 0.8284, Test MSE: 0.1136, r (test): -0.1814
+Epoch: 76, Training Loss: 0.0290, Train MSE: 0.0290, r (train): 0.8277, Test MSE: 0.1299, r (test): -0.2861
+Epoch: 77, Training Loss: 0.0318, Train MSE: 0.0318, r (train): 0.8571, Test MSE: 0.1618, r (test): -0.3708
+Epoch: 78, Training Loss: 0.0387, Train MSE: 0.0387, r (train): 0.8362, Test MSE: 0.1793, r (test): -0.3646
+Epoch: 79, Training Loss: 0.0509, Train MSE: 0.0509, r (train): 0.8767, Test MSE: 0.1894, r (test): -0.3941
+Epoch: 80, Training Loss: 0.1054, Train MSE: 0.1054, r (train): 0.8926, Test MSE: 0.2428, r (test): -0.3680
+Epoch: 81, Training Loss: 0.1203, Train MSE: 0.1203, r (train): 0.8088, Test MSE: 0.2329, r (test): -0.3215
+Epoch: 82, Training Loss: 0.1044, Train MSE: 0.1044, r (train): 0.8355, Test MSE: 0.2409, r (test): -0.4956
+Epoch: 83, Training Loss: 0.0884, Train MSE: 0.0884, r (train): 0.8719, Test MSE: 0.2248, r (test): -0.3438
+Epoch: 84, Training Loss: 0.0630, Train MSE: 0.0630, r (train): 0.8887, Test MSE: 0.1874, r (test): -0.3726
+Epoch: 85, Training Loss: 0.0434, Train MSE: 0.0434, r (train): 0.8856, Test MSE: 0.1573, r (test): -0.2864
+Epoch: 86, Training Loss: 0.0285, Train MSE: 0.0285, r (train): 0.8854, Test MSE: 0.1468, r (test): -0.3899
+Epoch: 87, Training Loss: 0.0288, Train MSE: 0.0288, r (train): 0.8886, Test MSE: 0.1486, r (test): -0.3472
+Epoch: 88, Training Loss: 0.0210, Train MSE: 0.0210, r (train): 0.8957, Test MSE: 0.1582, r (test): -0.4616
+Epoch: 89, Training Loss: 0.0628, Train MSE: 0.0628, r (train): 0.8855, Test MSE: 0.2006, r (test): -0.3833
+Epoch: 90, Training Loss: 0.0995, Train MSE: 0.0995, r (train): 0.8761, Test MSE: 0.2405, r (test): -0.4111
+Epoch: 91, Training Loss: 0.1086, Train MSE: 0.1086, r (train): 0.8670, Test MSE: 0.2394, r (test): -0.3913
+Epoch: 92, Training Loss: 0.0890, Train MSE: 0.0890, r (train): 0.8776, Test MSE: 0.2308, r (test): -0.3848
+Epoch: 93, Training Loss: 0.0259, Train MSE: 0.0259, r (train): 0.8798, Test MSE: 0.1654, r (test): -0.3191
+Epoch: 94, Training Loss: 0.0321, Train MSE: 0.0321, r (train): 0.8827, Test MSE: 0.1611, r (test): -0.3332
+Epoch: 95, Training Loss: 0.0280, Train MSE: 0.0280, r (train): 0.8679, Test MSE: 0.1352, r (test): -0.2187
+Epoch: 96, Training Loss: 0.0178, Train MSE: 0.0178, r (train): 0.8877, Test MSE: 0.1680, r (test): -0.4685
+Epoch: 97, Training Loss: 0.0152, Train MSE: 0.0152, r (train): 0.9106, Test MSE: 0.1990, r (test): -0.5037
+Epoch: 98, Training Loss: 0.0232, Train MSE: 0.0232, r (train): 0.9039, Test MSE: 0.1919, r (test): -0.4635
+Epoch: 99, Training Loss: 0.0302, Train MSE: 0.0302, r (train): 0.8961, Test MSE: 0.1802, r (test): -0.4164
+Predicted tensors for training set: 
+tensor([0.9910, 0.2967, 0.5066, 0.3306, 0.5233, 0.6024, 0.3682, 0.0281, 0.8597,
+        0.7587, 0.4794, 0.5225, 0.1089, 0.5387, 0.4684, 0.5737, 0.1820, 0.4543,
+        0.8055, 0.8096, 0.1786, 0.7273, 0.3606, 0.7372, 0.2185, 0.2782, 0.9370,
+        0.1118, 0.2970, 0.6128, 1.0283, 0.1161, 0.8001, 0.8847, 0.5033, 1.2373,
+        0.7209, 0.6985, 1.0374, 0.7152, 0.8719, 1.0711, 1.0427, 0.3750, 0.4429,
+        0.9454, 0.9524, 1.1292, 1.1122, 0.6565, 0.7988, 0.8133, 0.8001, 0.4945,
+        1.0629, 0.8301, 0.9170, 1.0569, 0.5837, 1.0312, 1.0010, 0.5602, 0.7915,
+        0.6541, 0.1667, 0.7620, 0.8700, 0.9195, 0.9111, 0.2420, 0.6752, 0.3726])
+Target tensorsfor training set: 
+tensor([0.9535, 0.2649, 0.4341, 0.2916, 0.5187, 0.5220, 0.4440, 0.0389, 0.8728,
+        0.7901, 0.5102, 0.5573, 0.1218, 0.6595, 0.4993, 0.6992, 0.2464, 0.4036,
+        0.8453, 0.8561, 0.1493, 0.7125, 0.3309, 0.7171, 0.2594, 0.1294, 0.9127,
+        0.0246, 0.2394, 0.5178, 0.9492, 0.0763, 0.6240, 0.6846, 0.3174, 0.8391,
+        0.3829, 0.5783, 0.8363, 0.5023, 0.7507, 0.8556, 0.7497, 0.0981, 0.1360,
+        0.7372, 0.6199, 0.8988, 0.9117, 0.4149, 0.5719, 0.4513, 0.4818, 0.0478,
+        0.7791, 0.5658, 0.5300, 0.9621, 0.4526, 0.9215, 0.8524, 0.4654, 0.5564,
+        0.5779, 0.1055, 0.7462, 0.8418, 0.9150, 0.9072, 0.1295, 0.6576, 0.2271])
+Correlation for training set: 0.8960733952759927
+Predicted tensors for test set: 
+tensor([0.3741, 0.7045, 0.4708, 0.7383, 0.4241, 0.6435, 0.6033, 1.4210, 0.5946,
+        0.5250, 0.6916, 0.7560, 0.8776, 0.7738, 0.7525, 0.4281, 0.3875, 0.2243])
+Target tensors for test set: 
+tensor([0.7371, 0.6671, 0.0636, 0.4373, 0.7144, 0.3453, 0.6465, 0.2255, 0.3077,
+        0.7950, 0.9656, 0.2169, 0.5780, 0.4640, 0.7596, 0.7270, 0.6577, 0.8411])
+Correlation for test set: -0.4163816997063388
+Fold 2
+Epoch: 00, Training Loss: 0.0881, Train MSE: 0.0881, r (train): 0.2366, Test MSE: 0.0742, r (test): 0.2682
+Epoch: 01, Training Loss: 0.0728, Train MSE: 0.0728, r (train): 0.3516, Test MSE: 0.0857, r (test): 0.2637
+Epoch: 02, Training Loss: 0.0685, Train MSE: 0.0685, r (train): 0.4318, Test MSE: 0.0853, r (test): 0.2294
+Epoch: 03, Training Loss: 0.0695, Train MSE: 0.0695, r (train): 0.4811, Test MSE: 0.0938, r (test): 0.1713
+Epoch: 04, Training Loss: 0.0684, Train MSE: 0.0684, r (train): 0.5130, Test MSE: 0.1006, r (test): 0.1227
+Epoch: 05, Training Loss: 0.0697, Train MSE: 0.0697, r (train): 0.5321, Test MSE: 0.1094, r (test): 0.1090
+Epoch: 06, Training Loss: 0.0681, Train MSE: 0.0681, r (train): 0.5522, Test MSE: 0.1173, r (test): 0.0855
+Epoch: 07, Training Loss: 0.0664, Train MSE: 0.0664, r (train): 0.5855, Test MSE: 0.1219, r (test): 0.0773
+Epoch: 08, Training Loss: 0.0612, Train MSE: 0.0612, r (train): 0.6117, Test MSE: 0.1177, r (test): 0.0578
+Epoch: 09, Training Loss: 0.0583, Train MSE: 0.0583, r (train): 0.6536, Test MSE: 0.1236, r (test): 0.0302
+Epoch: 10, Training Loss: 0.0583, Train MSE: 0.0583, r (train): 0.6683, Test MSE: 0.1255, r (test): 0.0082
+Epoch: 11, Training Loss: 0.0550, Train MSE: 0.0550, r (train): 0.6991, Test MSE: 0.1298, r (test): 0.0446
+Epoch: 12, Training Loss: 0.0450, Train MSE: 0.0450, r (train): 0.7326, Test MSE: 0.1217, r (test): -0.0345
+Epoch: 13, Training Loss: 0.0632, Train MSE: 0.0632, r (train): 0.6325, Test MSE: 0.1234, r (test): 0.0467
+Epoch: 14, Training Loss: 0.0458, Train MSE: 0.0458, r (train): 0.7010, Test MSE: 0.1166, r (test): -0.1183
+Epoch: 15, Training Loss: 0.0542, Train MSE: 0.0542, r (train): 0.7133, Test MSE: 0.1321, r (test): 0.0585
+Epoch: 16, Training Loss: 0.0392, Train MSE: 0.0392, r (train): 0.7676, Test MSE: 0.1198, r (test): 0.0578
+Epoch: 17, Training Loss: 0.0482, Train MSE: 0.0482, r (train): 0.7054, Test MSE: 0.1201, r (test): 0.1062
+Epoch: 18, Training Loss: 0.0394, Train MSE: 0.0394, r (train): 0.7981, Test MSE: 0.1170, r (test): -0.1036
+Epoch: 19, Training Loss: 0.0458, Train MSE: 0.0458, r (train): 0.7950, Test MSE: 0.1379, r (test): -0.0809
+Epoch: 20, Training Loss: 0.0303, Train MSE: 0.0303, r (train): 0.8534, Test MSE: 0.1280, r (test): -0.1091
+Epoch: 21, Training Loss: 0.0243, Train MSE: 0.0243, r (train): 0.8773, Test MSE: 0.1228, r (test): -0.0758
+Epoch: 22, Training Loss: 0.0241, Train MSE: 0.0241, r (train): 0.8717, Test MSE: 0.1213, r (test): -0.0517
+Epoch: 23, Training Loss: 0.0186, Train MSE: 0.0186, r (train): 0.8953, Test MSE: 0.1144, r (test): -0.0090
+Epoch: 24, Training Loss: 0.0179, Train MSE: 0.0179, r (train): 0.9061, Test MSE: 0.1144, r (test): 0.0322
+Epoch: 25, Training Loss: 0.0178, Train MSE: 0.0178, r (train): 0.8914, Test MSE: 0.1105, r (test): 0.0373
+Epoch: 26, Training Loss: 0.0223, Train MSE: 0.0223, r (train): 0.9048, Test MSE: 0.1257, r (test): 0.0446
+Epoch: 27, Training Loss: 0.0488, Train MSE: 0.0488, r (train): 0.8167, Test MSE: 0.1497, r (test): 0.0180
+Epoch: 28, Training Loss: 0.0363, Train MSE: 0.0363, r (train): 0.8058, Test MSE: 0.1098, r (test): 0.1652
+Epoch: 29, Training Loss: 0.0125, Train MSE: 0.0125, r (train): 0.9222, Test MSE: 0.0813, r (test): 0.2012
+Epoch: 30, Training Loss: 0.0191, Train MSE: 0.0191, r (train): 0.9435, Test MSE: 0.1134, r (test): 0.2040
+Epoch: 31, Training Loss: 0.0148, Train MSE: 0.0148, r (train): 0.9225, Test MSE: 0.0915, r (test): 0.2191
+Epoch: 32, Training Loss: 0.0096, Train MSE: 0.0096, r (train): 0.9411, Test MSE: 0.0860, r (test): 0.1453
+Epoch: 33, Training Loss: 0.0106, Train MSE: 0.0106, r (train): 0.9372, Test MSE: 0.0867, r (test): 0.2315
+Epoch: 34, Training Loss: 0.0167, Train MSE: 0.0167, r (train): 0.8945, Test MSE: 0.0674, r (test): 0.2093
+Epoch: 35, Training Loss: 0.0139, Train MSE: 0.0139, r (train): 0.9087, Test MSE: 0.0716, r (test): 0.1746
+Epoch: 36, Training Loss: 0.0174, Train MSE: 0.0174, r (train): 0.9195, Test MSE: 0.1069, r (test): 0.1388
+Epoch: 37, Training Loss: 0.0474, Train MSE: 0.0474, r (train): 0.8852, Test MSE: 0.1612, r (test): 0.1997
+Epoch: 38, Training Loss: 0.0502, Train MSE: 0.0502, r (train): 0.9043, Test MSE: 0.1749, r (test): 0.0273
+Epoch: 39, Training Loss: 0.0549, Train MSE: 0.0549, r (train): 0.8598, Test MSE: 0.1698, r (test): 0.1762
+Epoch: 40, Training Loss: 0.0266, Train MSE: 0.0266, r (train): 0.8202, Test MSE: 0.1079, r (test): 0.0925
+Epoch: 41, Training Loss: 0.0207, Train MSE: 0.0207, r (train): 0.8920, Test MSE: 0.0948, r (test): 0.2741
+Epoch: 42, Training Loss: 0.0181, Train MSE: 0.0181, r (train): 0.9233, Test MSE: 0.1151, r (test): 0.1742
+Epoch: 43, Training Loss: 0.0298, Train MSE: 0.0298, r (train): 0.9599, Test MSE: 0.1536, r (test): 0.1247
+Epoch: 44, Training Loss: 0.0328, Train MSE: 0.0328, r (train): 0.9346, Test MSE: 0.1538, r (test): 0.1381
+Epoch: 45, Training Loss: 0.0208, Train MSE: 0.0208, r (train): 0.9241, Test MSE: 0.1257, r (test): 0.1256
+Epoch: 46, Training Loss: 0.0231, Train MSE: 0.0231, r (train): 0.9144, Test MSE: 0.1308, r (test): 0.1570
+Epoch: 47, Training Loss: 0.0501, Train MSE: 0.0501, r (train): 0.9208, Test MSE: 0.1850, r (test): 0.2065
+Epoch: 48, Training Loss: 0.0907, Train MSE: 0.0907, r (train): 0.9198, Test MSE: 0.2435, r (test): 0.1095
+Epoch: 49, Training Loss: 0.0374, Train MSE: 0.0374, r (train): 0.9126, Test MSE: 0.1501, r (test): 0.0296
+Epoch: 50, Training Loss: 0.0152, Train MSE: 0.0152, r (train): 0.9161, Test MSE: 0.1053, r (test): 0.0850
+Epoch: 51, Training Loss: 0.0279, Train MSE: 0.0279, r (train): 0.9136, Test MSE: 0.1356, r (test): 0.2522
+Epoch: 52, Training Loss: 0.0757, Train MSE: 0.0757, r (train): 0.9239, Test MSE: 0.2081, r (test): 0.2002
+Epoch: 53, Training Loss: 0.0359, Train MSE: 0.0359, r (train): 0.9037, Test MSE: 0.1383, r (test): 0.1727
+Epoch: 54, Training Loss: 0.0133, Train MSE: 0.0133, r (train): 0.9413, Test MSE: 0.1000, r (test): 0.1535
+Epoch: 55, Training Loss: 0.0205, Train MSE: 0.0205, r (train): 0.9544, Test MSE: 0.1300, r (test): 0.1886
+Epoch: 56, Training Loss: 0.0286, Train MSE: 0.0286, r (train): 0.9584, Test MSE: 0.1384, r (test): 0.2375
+Epoch: 57, Training Loss: 0.0102, Train MSE: 0.0102, r (train): 0.9458, Test MSE: 0.0943, r (test): 0.1634
+Epoch: 58, Training Loss: 0.0115, Train MSE: 0.0115, r (train): 0.9535, Test MSE: 0.0980, r (test): 0.1384
+Epoch: 59, Training Loss: 0.0206, Train MSE: 0.0206, r (train): 0.9517, Test MSE: 0.1188, r (test): 0.2224
+Epoch: 60, Training Loss: 0.0106, Train MSE: 0.0106, r (train): 0.9483, Test MSE: 0.0893, r (test): 0.2173
+Epoch: 61, Training Loss: 0.0104, Train MSE: 0.0104, r (train): 0.9561, Test MSE: 0.0979, r (test): 0.1940
+Epoch: 62, Training Loss: 0.0100, Train MSE: 0.0100, r (train): 0.9536, Test MSE: 0.0950, r (test): 0.2399
+Epoch: 63, Training Loss: 0.0124, Train MSE: 0.0124, r (train): 0.9389, Test MSE: 0.0880, r (test): 0.2528
+Epoch: 64, Training Loss: 0.0075, Train MSE: 0.0075, r (train): 0.9515, Test MSE: 0.0728, r (test): 0.1604
+Epoch: 65, Training Loss: 0.0096, Train MSE: 0.0096, r (train): 0.9397, Test MSE: 0.0897, r (test): 0.1266
+Epoch: 66, Training Loss: 0.0214, Train MSE: 0.0214, r (train): 0.9293, Test MSE: 0.1179, r (test): 0.1056
+Epoch: 67, Training Loss: 0.0165, Train MSE: 0.0165, r (train): 0.9326, Test MSE: 0.0989, r (test): 0.1711
+Epoch: 68, Training Loss: 0.0132, Train MSE: 0.0132, r (train): 0.9134, Test MSE: 0.0736, r (test): 0.1123
+Epoch: 69, Training Loss: 0.0123, Train MSE: 0.0123, r (train): 0.9380, Test MSE: 0.1006, r (test): 0.1255
+Epoch: 70, Training Loss: 0.0316, Train MSE: 0.0316, r (train): 0.9303, Test MSE: 0.1411, r (test): 0.0001
+Epoch: 71, Training Loss: 0.0180, Train MSE: 0.0180, r (train): 0.9274, Test MSE: 0.1079, r (test): -0.1114
+Epoch: 72, Training Loss: 0.0231, Train MSE: 0.0231, r (train): 0.9443, Test MSE: 0.1190, r (test): 0.1836
+Epoch: 73, Training Loss: 0.0784, Train MSE: 0.0784, r (train): 0.9434, Test MSE: 0.2157, r (test): 0.1016
+Epoch: 74, Training Loss: 0.0337, Train MSE: 0.0337, r (train): 0.9110, Test MSE: 0.1446, r (test): -0.0426
+Epoch: 75, Training Loss: 0.0239, Train MSE: 0.0239, r (train): 0.9391, Test MSE: 0.1440, r (test): -0.1291
+Epoch: 76, Training Loss: 0.0702, Train MSE: 0.0702, r (train): 0.8818, Test MSE: 0.1957, r (test): 0.1760
+Epoch: 77, Training Loss: 0.0484, Train MSE: 0.0484, r (train): 0.9360, Test MSE: 0.1597, r (test): 0.0435
+Epoch: 78, Training Loss: 0.0255, Train MSE: 0.0255, r (train): 0.9306, Test MSE: 0.1131, r (test): 0.2393
+Epoch: 79, Training Loss: 0.0250, Train MSE: 0.0250, r (train): 0.9634, Test MSE: 0.1137, r (test): 0.3914
+Epoch: 80, Training Loss: 0.0176, Train MSE: 0.0176, r (train): 0.9465, Test MSE: 0.1116, r (test): 0.2388
+Epoch: 81, Training Loss: 0.0073, Train MSE: 0.0073, r (train): 0.9574, Test MSE: 0.0848, r (test): 0.1531
+Epoch: 82, Training Loss: 0.0067, Train MSE: 0.0067, r (train): 0.9591, Test MSE: 0.0796, r (test): 0.2885
+Epoch: 83, Training Loss: 0.0096, Train MSE: 0.0096, r (train): 0.9516, Test MSE: 0.0765, r (test): 0.0462
+Epoch: 84, Training Loss: 0.0130, Train MSE: 0.0130, r (train): 0.9367, Test MSE: 0.0710, r (test): 0.0785
+Epoch: 85, Training Loss: 0.0105, Train MSE: 0.0105, r (train): 0.9316, Test MSE: 0.0758, r (test): 0.0159
+Epoch: 86, Training Loss: 0.0117, Train MSE: 0.0117, r (train): 0.9308, Test MSE: 0.0989, r (test): -0.0189
+Epoch: 87, Training Loss: 0.0145, Train MSE: 0.0145, r (train): 0.9169, Test MSE: 0.1034, r (test): -0.0988
+Epoch: 88, Training Loss: 0.0293, Train MSE: 0.0293, r (train): 0.9330, Test MSE: 0.1268, r (test): 0.0899
+Epoch: 89, Training Loss: 0.0704, Train MSE: 0.0704, r (train): 0.9291, Test MSE: 0.2092, r (test): 0.0565
+Epoch: 90, Training Loss: 0.0538, Train MSE: 0.0538, r (train): 0.8949, Test MSE: 0.1603, r (test): 0.0066
+Epoch: 91, Training Loss: 0.0316, Train MSE: 0.0316, r (train): 0.9391, Test MSE: 0.1444, r (test): 0.0782
+Epoch: 92, Training Loss: 0.0137, Train MSE: 0.0137, r (train): 0.9483, Test MSE: 0.1030, r (test): 0.0685
+Epoch: 93, Training Loss: 0.0108, Train MSE: 0.0108, r (train): 0.9458, Test MSE: 0.0832, r (test): 0.2650
+Epoch: 94, Training Loss: 0.0091, Train MSE: 0.0091, r (train): 0.9528, Test MSE: 0.0654, r (test): 0.1897
+Epoch: 95, Training Loss: 0.0197, Train MSE: 0.0197, r (train): 0.9192, Test MSE: 0.0634, r (test): 0.1894
+Epoch: 96, Training Loss: 0.0144, Train MSE: 0.0144, r (train): 0.9278, Test MSE: 0.0629, r (test): 0.2231
+Epoch: 97, Training Loss: 0.0124, Train MSE: 0.0124, r (train): 0.9172, Test MSE: 0.0764, r (test): 0.1268
+Epoch: 98, Training Loss: 0.0106, Train MSE: 0.0106, r (train): 0.9382, Test MSE: 0.0953, r (test): 0.0813
+Epoch: 99, Training Loss: 0.0340, Train MSE: 0.0340, r (train): 0.9426, Test MSE: 0.1516, r (test): 0.0742
+Predicted tensors for training set: 
+tensor([0.9129, 0.7921, 0.1661, 0.5440, 0.8752, 0.5526, 0.7545, 0.5560, 0.4602,
+        0.9374, 1.1257, 0.4613, 0.7835, 0.6367, 0.9478, 0.8938, 0.8201, 1.1078,
+        0.9572, 0.9514, 0.4649, 0.7388, 0.3715, 0.7549, 0.3942, 0.1869, 0.9912,
+        0.1488, 0.3798, 0.5683, 1.0308, 0.1438, 0.7346, 0.7016, 0.4753, 0.9101,
+        0.5014, 0.7282, 0.9778, 0.6666, 0.8986, 1.0276, 1.0401, 0.3641, 0.4562,
+        0.9131, 0.9598, 1.0613, 1.1328, 0.7396, 0.8334, 0.7681, 0.8494, 0.4333,
+        1.0426, 0.8037, 0.8177, 1.0929, 0.5720, 1.0540, 0.9984, 0.6380, 0.7788,
+        0.6983, 0.2538, 0.7960, 0.8657, 0.9262, 0.9244, 0.1812, 0.7335, 0.3144])
+Target tensorsfor training set: 
+tensor([0.7371, 0.6671, 0.0636, 0.4373, 0.7144, 0.3453, 0.6465, 0.2255, 0.3077,
+        0.7950, 0.9656, 0.2169, 0.5780, 0.4640, 0.7596, 0.7270, 0.6577, 0.8411,
+        0.8453, 0.8561, 0.1493, 0.7125, 0.3309, 0.7171, 0.2594, 0.1294, 0.9127,
+        0.0246, 0.2394, 0.5178, 0.9492, 0.0763, 0.6240, 0.6846, 0.3174, 0.8391,
+        0.3829, 0.5783, 0.8363, 0.5023, 0.7507, 0.8556, 0.7497, 0.0981, 0.1360,
+        0.7372, 0.6199, 0.8988, 0.9117, 0.4149, 0.5719, 0.4513, 0.4818, 0.0478,
+        0.7791, 0.5658, 0.5300, 0.9621, 0.4526, 0.9215, 0.8524, 0.4654, 0.5564,
+        0.5779, 0.1055, 0.7462, 0.8418, 0.9150, 0.9072, 0.1295, 0.6576, 0.2271])
+Correlation for training set: 0.9425875200230438
+Predicted tensors for test set: 
+tensor([0.9212, 0.6923, 0.6052, 0.8525, 0.7551, 0.8981, 0.7412, 0.6523, 0.9037,
+        0.6687, 0.8031, 0.6341, 1.0043, 0.6619, 0.7909, 0.8471, 0.8693, 0.8010])
+Target tensors for test set: 
+tensor([0.9535, 0.2649, 0.4341, 0.2916, 0.5187, 0.5220, 0.4440, 0.0389, 0.8728,
+        0.7901, 0.5102, 0.5573, 0.1218, 0.6595, 0.4993, 0.6992, 0.2464, 0.4036])
+Correlation for test set: 0.07415940605931604
+Fold 3
+Epoch: 00, Training Loss: 0.0598, Train MSE: 0.0598, r (train): 0.3673, Test MSE: 0.1346, r (test): -0.1511
+Epoch: 01, Training Loss: 0.0554, Train MSE: 0.0554, r (train): 0.4600, Test MSE: 0.1299, r (test): -0.0672
+Epoch: 02, Training Loss: 0.0500, Train MSE: 0.0500, r (train): 0.5593, Test MSE: 0.1317, r (test): -0.1441
+Epoch: 03, Training Loss: 0.0476, Train MSE: 0.0476, r (train): 0.5925, Test MSE: 0.1278, r (test): -0.0135
+Epoch: 04, Training Loss: 0.0444, Train MSE: 0.0444, r (train): 0.6309, Test MSE: 0.1269, r (test): 0.0349
+Epoch: 05, Training Loss: 0.0423, Train MSE: 0.0423, r (train): 0.6599, Test MSE: 0.1309, r (test): 0.1299
+Epoch: 06, Training Loss: 0.0402, Train MSE: 0.0402, r (train): 0.6509, Test MSE: 0.1399, r (test): 0.1729
+Epoch: 07, Training Loss: 0.0403, Train MSE: 0.0403, r (train): 0.6971, Test MSE: 0.1409, r (test): 0.1888
+Epoch: 08, Training Loss: 0.0525, Train MSE: 0.0525, r (train): 0.5410, Test MSE: 0.1477, r (test): 0.1811
+Epoch: 09, Training Loss: 0.0401, Train MSE: 0.0401, r (train): 0.6848, Test MSE: 0.1310, r (test): 0.2213
+Epoch: 10, Training Loss: 0.0562, Train MSE: 0.0562, r (train): 0.6431, Test MSE: 0.1493, r (test): 0.0819
+Epoch: 11, Training Loss: 0.0349, Train MSE: 0.0349, r (train): 0.6978, Test MSE: 0.1160, r (test): 0.0940
+Epoch: 12, Training Loss: 0.0308, Train MSE: 0.0308, r (train): 0.7869, Test MSE: 0.1288, r (test): 0.0549
+Epoch: 13, Training Loss: 0.0293, Train MSE: 0.0293, r (train): 0.7599, Test MSE: 0.1321, r (test): 0.0450
+Epoch: 14, Training Loss: 0.0265, Train MSE: 0.0265, r (train): 0.8360, Test MSE: 0.1383, r (test): 0.0888
+Epoch: 15, Training Loss: 0.0260, Train MSE: 0.0260, r (train): 0.8504, Test MSE: 0.1524, r (test): -0.0258
+Epoch: 16, Training Loss: 0.0331, Train MSE: 0.0331, r (train): 0.7541, Test MSE: 0.1334, r (test): 0.2082
+Epoch: 17, Training Loss: 0.0426, Train MSE: 0.0426, r (train): 0.7665, Test MSE: 0.1557, r (test): 0.0414
+Epoch: 18, Training Loss: 0.0383, Train MSE: 0.0383, r (train): 0.7050, Test MSE: 0.1474, r (test): 0.0110
+Epoch: 19, Training Loss: 0.0238, Train MSE: 0.0238, r (train): 0.8518, Test MSE: 0.1384, r (test): -0.0504
+Epoch: 20, Training Loss: 0.0453, Train MSE: 0.0453, r (train): 0.8460, Test MSE: 0.1815, r (test): 0.0369
+Epoch: 21, Training Loss: 0.0250, Train MSE: 0.0250, r (train): 0.8836, Test MSE: 0.1489, r (test): 0.0213
+Epoch: 22, Training Loss: 0.0292, Train MSE: 0.0292, r (train): 0.8634, Test MSE: 0.1535, r (test): 0.0123
+Epoch: 23, Training Loss: 0.0468, Train MSE: 0.0468, r (train): 0.8410, Test MSE: 0.1714, r (test): -0.0364
+Epoch: 24, Training Loss: 0.0520, Train MSE: 0.0520, r (train): 0.8051, Test MSE: 0.1847, r (test): -0.0984
+Epoch: 25, Training Loss: 0.0157, Train MSE: 0.0157, r (train): 0.8751, Test MSE: 0.1162, r (test): -0.0410
+Epoch: 26, Training Loss: 0.0247, Train MSE: 0.0247, r (train): 0.8642, Test MSE: 0.1355, r (test): -0.1046
+Epoch: 27, Training Loss: 0.0293, Train MSE: 0.0293, r (train): 0.8098, Test MSE: 0.1567, r (test): -0.2104
+Epoch: 28, Training Loss: 0.0317, Train MSE: 0.0317, r (train): 0.7736, Test MSE: 0.1041, r (test): -0.0297
+Epoch: 29, Training Loss: 0.0261, Train MSE: 0.0261, r (train): 0.8438, Test MSE: 0.1378, r (test): -0.1780
+Epoch: 30, Training Loss: 0.0420, Train MSE: 0.0420, r (train): 0.8523, Test MSE: 0.1757, r (test): -0.1516
+Epoch: 31, Training Loss: 0.0522, Train MSE: 0.0522, r (train): 0.8728, Test MSE: 0.2039, r (test): -0.2911
+Epoch: 32, Training Loss: 0.0205, Train MSE: 0.0205, r (train): 0.8584, Test MSE: 0.1369, r (test): -0.2570
+Epoch: 33, Training Loss: 0.0169, Train MSE: 0.0169, r (train): 0.8733, Test MSE: 0.1215, r (test): -0.2013
+Epoch: 34, Training Loss: 0.0308, Train MSE: 0.0308, r (train): 0.8722, Test MSE: 0.1708, r (test): -0.2822
+Epoch: 35, Training Loss: 0.0382, Train MSE: 0.0382, r (train): 0.8660, Test MSE: 0.1519, r (test): -0.2293
+Epoch: 36, Training Loss: 0.0753, Train MSE: 0.0753, r (train): 0.8790, Test MSE: 0.2121, r (test): -0.2085
+Epoch: 37, Training Loss: 0.0231, Train MSE: 0.0231, r (train): 0.8663, Test MSE: 0.1363, r (test): -0.1593
+Epoch: 38, Training Loss: 0.0249, Train MSE: 0.0249, r (train): 0.8901, Test MSE: 0.1526, r (test): -0.2524
+Epoch: 39, Training Loss: 0.0298, Train MSE: 0.0298, r (train): 0.8435, Test MSE: 0.1528, r (test): -0.2875
+Epoch: 40, Training Loss: 0.0449, Train MSE: 0.0449, r (train): 0.8928, Test MSE: 0.1752, r (test): -0.2670
+Epoch: 41, Training Loss: 0.0902, Train MSE: 0.0902, r (train): 0.8934, Test MSE: 0.2436, r (test): -0.2795
+Epoch: 42, Training Loss: 0.0714, Train MSE: 0.0714, r (train): 0.8896, Test MSE: 0.2129, r (test): -0.1618
+Epoch: 43, Training Loss: 0.0336, Train MSE: 0.0336, r (train): 0.8637, Test MSE: 0.1622, r (test): -0.2545
+Epoch: 44, Training Loss: 0.0344, Train MSE: 0.0344, r (train): 0.8442, Test MSE: 0.1474, r (test): -0.3038
+Epoch: 45, Training Loss: 0.0815, Train MSE: 0.0815, r (train): 0.8461, Test MSE: 0.2172, r (test): -0.3534
+Epoch: 46, Training Loss: 0.0847, Train MSE: 0.0847, r (train): 0.8868, Test MSE: 0.2379, r (test): -0.2593
+Epoch: 47, Training Loss: 0.0549, Train MSE: 0.0549, r (train): 0.8721, Test MSE: 0.1955, r (test): -0.5056
+Epoch: 48, Training Loss: 0.0548, Train MSE: 0.0548, r (train): 0.8502, Test MSE: 0.1728, r (test): -0.2199
+Epoch: 49, Training Loss: 0.0956, Train MSE: 0.0956, r (train): 0.8341, Test MSE: 0.2328, r (test): -0.3094
+Epoch: 50, Training Loss: 0.0934, Train MSE: 0.0934, r (train): 0.8800, Test MSE: 0.2496, r (test): -0.3145
+Epoch: 51, Training Loss: 0.0559, Train MSE: 0.0559, r (train): 0.8739, Test MSE: 0.1887, r (test): -0.4517
+Epoch: 52, Training Loss: 0.0503, Train MSE: 0.0503, r (train): 0.8467, Test MSE: 0.1653, r (test): -0.2515
+Epoch: 53, Training Loss: 0.0721, Train MSE: 0.0721, r (train): 0.8408, Test MSE: 0.2075, r (test): -0.2655
+Epoch: 54, Training Loss: 0.0473, Train MSE: 0.0473, r (train): 0.8676, Test MSE: 0.1930, r (test): -0.2184
+Epoch: 55, Training Loss: 0.0257, Train MSE: 0.0257, r (train): 0.8823, Test MSE: 0.1598, r (test): -0.4877
+Epoch: 56, Training Loss: 0.0367, Train MSE: 0.0367, r (train): 0.8285, Test MSE: 0.1494, r (test): -0.2230
+Epoch: 57, Training Loss: 0.0350, Train MSE: 0.0350, r (train): 0.8605, Test MSE: 0.1609, r (test): -0.3208
+Epoch: 58, Training Loss: 0.0248, Train MSE: 0.0248, r (train): 0.8790, Test MSE: 0.1673, r (test): -0.4948
+Epoch: 59, Training Loss: 0.0226, Train MSE: 0.0226, r (train): 0.8720, Test MSE: 0.1431, r (test): -0.3475
+Epoch: 60, Training Loss: 0.0203, Train MSE: 0.0203, r (train): 0.8732, Test MSE: 0.1293, r (test): -0.2148
+Epoch: 61, Training Loss: 0.0302, Train MSE: 0.0302, r (train): 0.8714, Test MSE: 0.1651, r (test): -0.3257
+Epoch: 62, Training Loss: 0.0267, Train MSE: 0.0267, r (train): 0.8807, Test MSE: 0.1656, r (test): -0.4044
+Epoch: 63, Training Loss: 0.0339, Train MSE: 0.0339, r (train): 0.8573, Test MSE: 0.1730, r (test): -0.3154
+Epoch: 64, Training Loss: 0.0240, Train MSE: 0.0240, r (train): 0.8611, Test MSE: 0.1652, r (test): -0.3007
+Epoch: 65, Training Loss: 0.0330, Train MSE: 0.0330, r (train): 0.8603, Test MSE: 0.1735, r (test): -0.2413
+Epoch: 66, Training Loss: 0.0999, Train MSE: 0.0999, r (train): 0.8590, Test MSE: 0.2809, r (test): -0.3260
+Epoch: 67, Training Loss: 0.0906, Train MSE: 0.0906, r (train): 0.8630, Test MSE: 0.2377, r (test): -0.2579
+Epoch: 68, Training Loss: 0.1204, Train MSE: 0.1204, r (train): 0.8577, Test MSE: 0.2577, r (test): -0.3572
+Epoch: 69, Training Loss: 0.0635, Train MSE: 0.0635, r (train): 0.8805, Test MSE: 0.2011, r (test): -0.3442
+Epoch: 70, Training Loss: 0.0561, Train MSE: 0.0561, r (train): 0.8958, Test MSE: 0.1912, r (test): -0.3159
+Epoch: 71, Training Loss: 0.0744, Train MSE: 0.0744, r (train): 0.8771, Test MSE: 0.2114, r (test): -0.3085
+Epoch: 72, Training Loss: 0.0770, Train MSE: 0.0770, r (train): 0.8395, Test MSE: 0.1995, r (test): -0.2103
+Epoch: 73, Training Loss: 0.0869, Train MSE: 0.0869, r (train): 0.8606, Test MSE: 0.2111, r (test): -0.1716
+Epoch: 74, Training Loss: 0.0376, Train MSE: 0.0376, r (train): 0.8905, Test MSE: 0.1655, r (test): -0.3755
+Epoch: 75, Training Loss: 0.0305, Train MSE: 0.0305, r (train): 0.8840, Test MSE: 0.1690, r (test): -0.3053
+Epoch: 76, Training Loss: 0.0244, Train MSE: 0.0244, r (train): 0.8540, Test MSE: 0.1454, r (test): -0.2686
+Epoch: 77, Training Loss: 0.0181, Train MSE: 0.0181, r (train): 0.8892, Test MSE: 0.1584, r (test): -0.3499
+Epoch: 78, Training Loss: 0.0184, Train MSE: 0.0184, r (train): 0.8714, Test MSE: 0.1412, r (test): -0.2309
+Epoch: 79, Training Loss: 0.0184, Train MSE: 0.0184, r (train): 0.8723, Test MSE: 0.1717, r (test): -0.3523
+Epoch: 80, Training Loss: 0.0210, Train MSE: 0.0210, r (train): 0.8487, Test MSE: 0.1423, r (test): -0.2426
+Epoch: 81, Training Loss: 0.0512, Train MSE: 0.0512, r (train): 0.8534, Test MSE: 0.2158, r (test): -0.2999
+Epoch: 82, Training Loss: 0.0727, Train MSE: 0.0727, r (train): 0.8319, Test MSE: 0.2127, r (test): -0.3279
+Epoch: 83, Training Loss: 0.0761, Train MSE: 0.0761, r (train): 0.8558, Test MSE: 0.2530, r (test): -0.3543
+Epoch: 84, Training Loss: 0.0414, Train MSE: 0.0414, r (train): 0.8950, Test MSE: 0.1751, r (test): -0.1655
+Epoch: 85, Training Loss: 0.0686, Train MSE: 0.0686, r (train): 0.8928, Test MSE: 0.1949, r (test): -0.1884
+Epoch: 86, Training Loss: 0.0526, Train MSE: 0.0526, r (train): 0.9141, Test MSE: 0.1950, r (test): -0.3544
+Epoch: 87, Training Loss: 0.0405, Train MSE: 0.0405, r (train): 0.9068, Test MSE: 0.1736, r (test): -0.3217
+Epoch: 88, Training Loss: 0.0302, Train MSE: 0.0302, r (train): 0.8922, Test MSE: 0.1646, r (test): -0.2783
+Epoch: 89, Training Loss: 0.0164, Train MSE: 0.0164, r (train): 0.8942, Test MSE: 0.1628, r (test): -0.3665
+Epoch: 90, Training Loss: 0.0133, Train MSE: 0.0133, r (train): 0.9087, Test MSE: 0.1543, r (test): -0.3151
+Epoch: 91, Training Loss: 0.0318, Train MSE: 0.0318, r (train): 0.9054, Test MSE: 0.1920, r (test): -0.3554
+Epoch: 92, Training Loss: 0.0311, Train MSE: 0.0311, r (train): 0.8872, Test MSE: 0.1802, r (test): -0.3076
+Epoch: 93, Training Loss: 0.0289, Train MSE: 0.0289, r (train): 0.9045, Test MSE: 0.1736, r (test): -0.2882
+Epoch: 94, Training Loss: 0.0373, Train MSE: 0.0373, r (train): 0.9123, Test MSE: 0.1647, r (test): -0.2294
+Epoch: 95, Training Loss: 0.0137, Train MSE: 0.0137, r (train): 0.9324, Test MSE: 0.1587, r (test): -0.3220
+Epoch: 96, Training Loss: 0.0129, Train MSE: 0.0129, r (train): 0.9272, Test MSE: 0.1575, r (test): -0.3844
+Epoch: 97, Training Loss: 0.0122, Train MSE: 0.0122, r (train): 0.9190, Test MSE: 0.1577, r (test): -0.3445
+Epoch: 98, Training Loss: 0.0127, Train MSE: 0.0127, r (train): 0.9186, Test MSE: 0.1522, r (test): -0.2970
+Epoch: 99, Training Loss: 0.0161, Train MSE: 0.0161, r (train): 0.8767, Test MSE: 0.1603, r (test): -0.3436
+Predicted tensors for training set: 
+tensor([0.6571, 0.6562, 0.1049, 0.5211, 0.6397, 0.3949, 0.5994, 0.1366, 0.3259,
+        0.6921, 0.7939, 0.2243, 0.5237, 0.4388, 0.6198, 0.5894, 0.4873, 0.7017,
+        0.7847, 0.0500, 0.5127, 0.1366, 0.4739, 0.3697, 0.4557, 0.0925, 0.8329,
+        0.4929, 0.4985, 0.5396, 0.1118, 0.3884, 0.4468, 0.6967, 0.3682, 0.6057,
+        0.6716, 0.7273, 0.9682, 0.7186, 0.8310, 0.9367, 1.0436, 0.4702, 0.5119,
+        0.8417, 0.6809, 0.9598, 0.9962, 0.5198, 0.6378, 0.4919, 0.5544, 0.1067,
+        0.8250, 0.5800, 0.5140, 0.9564, 0.4324, 0.9258, 0.8781, 0.4766, 0.5044,
+        0.5306, 0.0635, 0.6913, 0.8181, 0.8861, 0.8484, 0.1546, 0.6926, 0.0928])
+Target tensorsfor training set: 
+tensor([0.7371, 0.6671, 0.0636, 0.4373, 0.7144, 0.3453, 0.6465, 0.2255, 0.3077,
+        0.7950, 0.9656, 0.2169, 0.5780, 0.4640, 0.7596, 0.7270, 0.6577, 0.8411,
+        0.9535, 0.2649, 0.4341, 0.2916, 0.5187, 0.5220, 0.4440, 0.0389, 0.8728,
+        0.7901, 0.5102, 0.5573, 0.1218, 0.6595, 0.4993, 0.6992, 0.2464, 0.4036,
+        0.3829, 0.5783, 0.8363, 0.5023, 0.7507, 0.8556, 0.7497, 0.0981, 0.1360,
+        0.7372, 0.6199, 0.8988, 0.9117, 0.4149, 0.5719, 0.4513, 0.4818, 0.0478,
+        0.7791, 0.5658, 0.5300, 0.9621, 0.4526, 0.9215, 0.8524, 0.4654, 0.5564,
+        0.5779, 0.1055, 0.7462, 0.8418, 0.9150, 0.9072, 0.1295, 0.6576, 0.2271])
+Correlation for training set: 0.8766964644803608
+Predicted tensors for test set: 
+tensor([0.5729, 0.7363, 0.6323, 0.5925, 0.7454, 0.5513, 0.5435, 0.6957, 0.4457,
+        0.6160, 0.6088, 0.5287, 0.6328, 0.6070, 0.7411, 0.5057, 0.6966, 0.0191])
+Target tensors for test set: 
+tensor([0.8453, 0.8561, 0.1493, 0.7125, 0.3309, 0.7171, 0.2594, 0.1294, 0.9127,
+        0.0246, 0.2394, 0.5178, 0.9492, 0.0763, 0.6240, 0.6846, 0.3174, 0.8391])
+Correlation for test set: -0.34363434458092273
+Fold 4
+Epoch: 00, Training Loss: 0.0882, Train MSE: 0.0882, r (train): 0.1379, Test MSE: 0.0861, r (test): -0.3732
+Epoch: 01, Training Loss: 0.0770, Train MSE: 0.0770, r (train): 0.2385, Test MSE: 0.0837, r (test): -0.3932
+Epoch: 02, Training Loss: 0.0838, Train MSE: 0.0838, r (train): 0.2526, Test MSE: 0.0931, r (test): -0.4525
+Epoch: 03, Training Loss: 0.0843, Train MSE: 0.0843, r (train): 0.3139, Test MSE: 0.0889, r (test): -0.4384
+Epoch: 04, Training Loss: 0.0768, Train MSE: 0.0768, r (train): 0.3955, Test MSE: 0.0892, r (test): -0.4846
+Epoch: 05, Training Loss: 0.0731, Train MSE: 0.0731, r (train): 0.4391, Test MSE: 0.0846, r (test): -0.3712
+Epoch: 06, Training Loss: 0.0675, Train MSE: 0.0675, r (train): 0.4892, Test MSE: 0.0828, r (test): -0.3170
+Epoch: 07, Training Loss: 0.0621, Train MSE: 0.0621, r (train): 0.5299, Test MSE: 0.0799, r (test): -0.2689
+Epoch: 08, Training Loss: 0.0580, Train MSE: 0.0580, r (train): 0.5712, Test MSE: 0.0782, r (test): -0.2023
+Epoch: 09, Training Loss: 0.0563, Train MSE: 0.0563, r (train): 0.5951, Test MSE: 0.0797, r (test): -0.2017
+Epoch: 10, Training Loss: 0.0630, Train MSE: 0.0630, r (train): 0.6094, Test MSE: 0.0749, r (test): 0.0430
+Epoch: 11, Training Loss: 0.0478, Train MSE: 0.0478, r (train): 0.7018, Test MSE: 0.0756, r (test): -0.0426
+Epoch: 12, Training Loss: 0.0623, Train MSE: 0.0623, r (train): 0.6022, Test MSE: 0.0692, r (test): 0.1501
+Epoch: 13, Training Loss: 0.0560, Train MSE: 0.0560, r (train): 0.6523, Test MSE: 0.0719, r (test): 0.0743
+Epoch: 14, Training Loss: 0.0554, Train MSE: 0.0554, r (train): 0.5870, Test MSE: 0.0749, r (test): -0.0556
+Epoch: 15, Training Loss: 0.0596, Train MSE: 0.0596, r (train): 0.7349, Test MSE: 0.0769, r (test): 0.1560
+Epoch: 16, Training Loss: 0.0445, Train MSE: 0.0445, r (train): 0.7644, Test MSE: 0.0737, r (test): 0.0928
+Epoch: 17, Training Loss: 0.0508, Train MSE: 0.0508, r (train): 0.7658, Test MSE: 0.0633, r (test): 0.3801
+Epoch: 18, Training Loss: 0.0593, Train MSE: 0.0593, r (train): 0.8192, Test MSE: 0.0838, r (test): 0.1415
+Epoch: 19, Training Loss: 0.0642, Train MSE: 0.0642, r (train): 0.7947, Test MSE: 0.0820, r (test): 0.1170
+Epoch: 20, Training Loss: 0.0352, Train MSE: 0.0352, r (train): 0.7540, Test MSE: 0.0702, r (test): 0.1188
+Epoch: 21, Training Loss: 0.0415, Train MSE: 0.0415, r (train): 0.7941, Test MSE: 0.0658, r (test): 0.2767
+Epoch: 22, Training Loss: 0.0669, Train MSE: 0.0669, r (train): 0.7318, Test MSE: 0.0656, r (test): 0.3069
+Epoch: 23, Training Loss: 0.0706, Train MSE: 0.0706, r (train): 0.7850, Test MSE: 0.1002, r (test): 0.1368
+Epoch: 24, Training Loss: 0.0351, Train MSE: 0.0351, r (train): 0.8138, Test MSE: 0.0638, r (test): 0.2822
+Epoch: 25, Training Loss: 0.0373, Train MSE: 0.0373, r (train): 0.8818, Test MSE: 0.0653, r (test): 0.3219
+Epoch: 26, Training Loss: 0.0438, Train MSE: 0.0438, r (train): 0.8706, Test MSE: 0.0641, r (test): 0.3573
+Epoch: 27, Training Loss: 0.0538, Train MSE: 0.0538, r (train): 0.9108, Test MSE: 0.0808, r (test): 0.3209
+Epoch: 28, Training Loss: 0.0325, Train MSE: 0.0325, r (train): 0.8754, Test MSE: 0.0615, r (test): 0.3449
+Epoch: 29, Training Loss: 0.0402, Train MSE: 0.0402, r (train): 0.9093, Test MSE: 0.0719, r (test): 0.3557
+Epoch: 30, Training Loss: 0.0306, Train MSE: 0.0306, r (train): 0.8396, Test MSE: 0.0626, r (test): 0.3202
+Epoch: 31, Training Loss: 0.0271, Train MSE: 0.0271, r (train): 0.9276, Test MSE: 0.0597, r (test): 0.4425
+Epoch: 32, Training Loss: 0.0568, Train MSE: 0.0568, r (train): 0.9368, Test MSE: 0.0799, r (test): 0.3963
+Epoch: 33, Training Loss: 0.0477, Train MSE: 0.0477, r (train): 0.9034, Test MSE: 0.0817, r (test): 0.2944
+Epoch: 34, Training Loss: 0.0344, Train MSE: 0.0344, r (train): 0.9004, Test MSE: 0.0777, r (test): 0.2559
+Epoch: 35, Training Loss: 0.0204, Train MSE: 0.0204, r (train): 0.8663, Test MSE: 0.0653, r (test): 0.5122
+Epoch: 36, Training Loss: 0.0202, Train MSE: 0.0202, r (train): 0.8913, Test MSE: 0.0771, r (test): 0.4388
+Epoch: 37, Training Loss: 0.0285, Train MSE: 0.0285, r (train): 0.8792, Test MSE: 0.0625, r (test): 0.3228
+Epoch: 38, Training Loss: 0.0440, Train MSE: 0.0440, r (train): 0.8081, Test MSE: 0.0626, r (test): 0.3239
+Epoch: 39, Training Loss: 0.0438, Train MSE: 0.0438, r (train): 0.8725, Test MSE: 0.0873, r (test): 0.1908
+Epoch: 40, Training Loss: 0.0174, Train MSE: 0.0174, r (train): 0.8765, Test MSE: 0.0667, r (test): 0.4199
+Epoch: 41, Training Loss: 0.0145, Train MSE: 0.0145, r (train): 0.9544, Test MSE: 0.0596, r (test): 0.3767
+Epoch: 42, Training Loss: 0.0206, Train MSE: 0.0206, r (train): 0.9480, Test MSE: 0.0576, r (test): 0.4275
+Epoch: 43, Training Loss: 0.0192, Train MSE: 0.0192, r (train): 0.9211, Test MSE: 0.0674, r (test): 0.2585
+Epoch: 44, Training Loss: 0.0204, Train MSE: 0.0204, r (train): 0.8742, Test MSE: 0.0658, r (test): 0.5893
+Epoch: 45, Training Loss: 0.0228, Train MSE: 0.0228, r (train): 0.9433, Test MSE: 0.0673, r (test): 0.2923
+Epoch: 46, Training Loss: 0.0160, Train MSE: 0.0160, r (train): 0.9472, Test MSE: 0.0603, r (test): 0.3549
+Epoch: 47, Training Loss: 0.0094, Train MSE: 0.0094, r (train): 0.9437, Test MSE: 0.0601, r (test): 0.3768
+Epoch: 48, Training Loss: 0.0119, Train MSE: 0.0119, r (train): 0.9213, Test MSE: 0.0520, r (test): 0.5438
+Epoch: 49, Training Loss: 0.0190, Train MSE: 0.0190, r (train): 0.9555, Test MSE: 0.0591, r (test): 0.4024
+Epoch: 50, Training Loss: 0.0306, Train MSE: 0.0306, r (train): 0.9515, Test MSE: 0.0705, r (test): 0.3509
+Epoch: 51, Training Loss: 0.0137, Train MSE: 0.0137, r (train): 0.9273, Test MSE: 0.0484, r (test): 0.5848
+Epoch: 52, Training Loss: 0.0231, Train MSE: 0.0231, r (train): 0.9552, Test MSE: 0.0554, r (test): 0.4794
+Epoch: 53, Training Loss: 0.0527, Train MSE: 0.0527, r (train): 0.9610, Test MSE: 0.0723, r (test): 0.4221
+Epoch: 54, Training Loss: 0.0268, Train MSE: 0.0268, r (train): 0.9589, Test MSE: 0.0564, r (test): 0.4787
+Epoch: 55, Training Loss: 0.0185, Train MSE: 0.0185, r (train): 0.9449, Test MSE: 0.0624, r (test): 0.3384
+Epoch: 56, Training Loss: 0.0244, Train MSE: 0.0244, r (train): 0.9192, Test MSE: 0.0619, r (test): 0.3500
+Epoch: 57, Training Loss: 0.0358, Train MSE: 0.0358, r (train): 0.9239, Test MSE: 0.0688, r (test): 0.3266
+Epoch: 58, Training Loss: 0.0408, Train MSE: 0.0408, r (train): 0.9221, Test MSE: 0.0771, r (test): 0.2793
+Epoch: 59, Training Loss: 0.0419, Train MSE: 0.0419, r (train): 0.9026, Test MSE: 0.0858, r (test): 0.1403
+Epoch: 60, Training Loss: 0.0143, Train MSE: 0.0143, r (train): 0.9045, Test MSE: 0.0708, r (test): 0.2013
+Epoch: 61, Training Loss: 0.0136, Train MSE: 0.0136, r (train): 0.9244, Test MSE: 0.0660, r (test): 0.5316
+Epoch: 62, Training Loss: 0.0200, Train MSE: 0.0200, r (train): 0.9117, Test MSE: 0.0728, r (test): 0.1639
+Epoch: 63, Training Loss: 0.0131, Train MSE: 0.0131, r (train): 0.9149, Test MSE: 0.0747, r (test): 0.2845
+Epoch: 64, Training Loss: 0.0159, Train MSE: 0.0159, r (train): 0.9117, Test MSE: 0.0678, r (test): 0.4823
+Epoch: 65, Training Loss: 0.0183, Train MSE: 0.0183, r (train): 0.8724, Test MSE: 0.0640, r (test): 0.4826
+Epoch: 66, Training Loss: 0.0200, Train MSE: 0.0200, r (train): 0.8869, Test MSE: 0.0584, r (test): 0.4026
+Epoch: 67, Training Loss: 0.0202, Train MSE: 0.0202, r (train): 0.8810, Test MSE: 0.0603, r (test): 0.3550
+Epoch: 68, Training Loss: 0.0327, Train MSE: 0.0327, r (train): 0.8457, Test MSE: 0.0552, r (test): 0.4465
+Epoch: 69, Training Loss: 0.0406, Train MSE: 0.0406, r (train): 0.8781, Test MSE: 0.0518, r (test): 0.5315
+Epoch: 70, Training Loss: 0.0514, Train MSE: 0.0514, r (train): 0.9303, Test MSE: 0.0907, r (test): 0.2382
+Epoch: 71, Training Loss: 0.0196, Train MSE: 0.0196, r (train): 0.9272, Test MSE: 0.0457, r (test): 0.6389
+Epoch: 72, Training Loss: 0.0286, Train MSE: 0.0286, r (train): 0.8882, Test MSE: 0.0597, r (test): 0.4452
+Epoch: 73, Training Loss: 0.0165, Train MSE: 0.0165, r (train): 0.9397, Test MSE: 0.0568, r (test): 0.4239
+Epoch: 74, Training Loss: 0.0119, Train MSE: 0.0119, r (train): 0.9378, Test MSE: 0.0670, r (test): 0.4688
+Epoch: 75, Training Loss: 0.0154, Train MSE: 0.0154, r (train): 0.9157, Test MSE: 0.0745, r (test): 0.3401
+Epoch: 76, Training Loss: 0.0138, Train MSE: 0.0138, r (train): 0.9066, Test MSE: 0.0671, r (test): 0.4338
+Epoch: 77, Training Loss: 0.0134, Train MSE: 0.0134, r (train): 0.9116, Test MSE: 0.0598, r (test): 0.4612
+Epoch: 78, Training Loss: 0.0291, Train MSE: 0.0291, r (train): 0.9385, Test MSE: 0.0615, r (test): 0.4101
+Epoch: 79, Training Loss: 0.0339, Train MSE: 0.0339, r (train): 0.9327, Test MSE: 0.0607, r (test): 0.4352
+Epoch: 80, Training Loss: 0.0200, Train MSE: 0.0200, r (train): 0.9384, Test MSE: 0.0558, r (test): 0.4584
+Epoch: 81, Training Loss: 0.0141, Train MSE: 0.0141, r (train): 0.9005, Test MSE: 0.0615, r (test): 0.3619
+Epoch: 82, Training Loss: 0.0223, Train MSE: 0.0223, r (train): 0.9241, Test MSE: 0.1006, r (test): 0.1058
+Epoch: 83, Training Loss: 0.0197, Train MSE: 0.0197, r (train): 0.9334, Test MSE: 0.0733, r (test): 0.5461
+Epoch: 84, Training Loss: 0.0080, Train MSE: 0.0080, r (train): 0.9514, Test MSE: 0.0559, r (test): 0.4968
+Epoch: 85, Training Loss: 0.0252, Train MSE: 0.0252, r (train): 0.9066, Test MSE: 0.0481, r (test): 0.6053
+Epoch: 86, Training Loss: 0.0191, Train MSE: 0.0191, r (train): 0.9314, Test MSE: 0.0593, r (test): 0.3752
+Epoch: 87, Training Loss: 0.0244, Train MSE: 0.0244, r (train): 0.9478, Test MSE: 0.0567, r (test): 0.5650
+Epoch: 88, Training Loss: 0.0161, Train MSE: 0.0161, r (train): 0.9230, Test MSE: 0.0792, r (test): 0.3678
+Epoch: 89, Training Loss: 0.0115, Train MSE: 0.0115, r (train): 0.9179, Test MSE: 0.0597, r (test): 0.3796
+Epoch: 90, Training Loss: 0.0115, Train MSE: 0.0115, r (train): 0.9503, Test MSE: 0.0739, r (test): 0.3704
+Epoch: 91, Training Loss: 0.0115, Train MSE: 0.0115, r (train): 0.9428, Test MSE: 0.0576, r (test): 0.4151
+Epoch: 92, Training Loss: 0.0122, Train MSE: 0.0122, r (train): 0.9637, Test MSE: 0.0621, r (test): 0.3140
+Epoch: 93, Training Loss: 0.0074, Train MSE: 0.0074, r (train): 0.9643, Test MSE: 0.0506, r (test): 0.5453
+Epoch: 94, Training Loss: 0.0071, Train MSE: 0.0071, r (train): 0.9511, Test MSE: 0.0699, r (test): 0.2653
+Epoch: 95, Training Loss: 0.0176, Train MSE: 0.0176, r (train): 0.9630, Test MSE: 0.0901, r (test): 0.2299
+Epoch: 96, Training Loss: 0.0046, Train MSE: 0.0046, r (train): 0.9699, Test MSE: 0.0670, r (test): 0.4205
+Epoch: 97, Training Loss: 0.0147, Train MSE: 0.0147, r (train): 0.9616, Test MSE: 0.0560, r (test): 0.4402
+Epoch: 98, Training Loss: 0.0058, Train MSE: 0.0058, r (train): 0.9709, Test MSE: 0.0527, r (test): 0.5040
+Epoch: 99, Training Loss: 0.0081, Train MSE: 0.0081, r (train): 0.9614, Test MSE: 0.0676, r (test): 0.4139
+Predicted tensors for training set: 
+tensor([ 0.6637,  0.5809,  0.0841,  0.3272,  0.5814,  0.2880,  0.5446,  0.0295,
+         0.2590,  0.7001,  0.7830,  0.1843,  0.4024,  0.3341,  0.5761,  0.6383,
+         0.6685,  0.6383,  0.8061,  0.3078,  0.4330,  0.1986,  0.4688,  0.4958,
+         0.4108, -0.0017,  0.8425,  0.8157,  0.4974,  0.4993,  0.0671,  0.7586,
+         0.4497,  0.6218,  0.3654,  0.3738,  0.8025,  0.8034,  0.0624,  0.6126,
+         0.3014,  0.6256,  0.2241,  0.1063,  0.7376, -0.0743,  0.1942,  0.3460,
+         0.8203, -0.0380,  0.5793,  0.5567,  0.3120,  0.6185,  0.6935,  0.5222,
+         0.5445,  0.9895,  0.4548,  0.8810,  0.8863,  0.4838,  0.6322,  0.6285,
+         0.1677,  0.7395,  0.8623,  0.9763,  0.8721,  0.1382,  0.6851,  0.2551])
+Target tensorsfor training set: 
+tensor([0.7371, 0.6671, 0.0636, 0.4373, 0.7144, 0.3453, 0.6465, 0.2255, 0.3077,
+        0.7950, 0.9656, 0.2169, 0.5780, 0.4640, 0.7596, 0.7270, 0.6577, 0.8411,
+        0.9535, 0.2649, 0.4341, 0.2916, 0.5187, 0.5220, 0.4440, 0.0389, 0.8728,
+        0.7901, 0.5102, 0.5573, 0.1218, 0.6595, 0.4993, 0.6992, 0.2464, 0.4036,
+        0.8453, 0.8561, 0.1493, 0.7125, 0.3309, 0.7171, 0.2594, 0.1294, 0.9127,
+        0.0246, 0.2394, 0.5178, 0.9492, 0.0763, 0.6240, 0.6846, 0.3174, 0.8391,
+        0.7791, 0.5658, 0.5300, 0.9621, 0.4526, 0.9215, 0.8524, 0.4654, 0.5564,
+        0.5779, 0.1055, 0.7462, 0.8418, 0.9150, 0.9072, 0.1295, 0.6576, 0.2271])
+Correlation for training set: 0.961403777345773
+Predicted tensors for test set: 
+tensor([0.3717, 0.3831, 0.5061, 0.4750, 0.5231, 0.4890, 0.5128, 0.2867, 0.4275,
+        0.3852, 0.4959, 0.5191, 0.4870, 0.6229, 0.3987, 0.4034, 0.5256, 0.4547])
+Target tensors for test set: 
+tensor([0.3829, 0.5783, 0.8363, 0.5023, 0.7507, 0.8556, 0.7497, 0.0981, 0.1360,
+        0.7372, 0.6199, 0.8988, 0.9117, 0.4149, 0.5719, 0.4513, 0.4818, 0.0478])
+Correlation for test set: 0.41387887802492435
+Fold 5
+Epoch: 00, Training Loss: 0.0895, Train MSE: 0.0895, r (train): 0.3669, Test MSE: 0.1462, r (test): -0.4448
+Epoch: 01, Training Loss: 0.0720, Train MSE: 0.0720, r (train): 0.3984, Test MSE: 0.1516, r (test): -0.5027
+Epoch: 02, Training Loss: 0.0593, Train MSE: 0.0593, r (train): 0.4466, Test MSE: 0.1469, r (test): -0.5046
+Epoch: 03, Training Loss: 0.0550, Train MSE: 0.0550, r (train): 0.4980, Test MSE: 0.1468, r (test): -0.4990
+Epoch: 04, Training Loss: 0.0550, Train MSE: 0.0550, r (train): 0.5336, Test MSE: 0.1488, r (test): -0.4744
+Epoch: 05, Training Loss: 0.0548, Train MSE: 0.0548, r (train): 0.5614, Test MSE: 0.1412, r (test): -0.4492
+Epoch: 06, Training Loss: 0.0539, Train MSE: 0.0539, r (train): 0.5895, Test MSE: 0.1428, r (test): -0.4381
+Epoch: 07, Training Loss: 0.0534, Train MSE: 0.0534, r (train): 0.5973, Test MSE: 0.1379, r (test): -0.4275
+Epoch: 08, Training Loss: 0.0576, Train MSE: 0.0576, r (train): 0.6228, Test MSE: 0.1466, r (test): -0.4202
+Epoch: 09, Training Loss: 0.0643, Train MSE: 0.0643, r (train): 0.6148, Test MSE: 0.1536, r (test): -0.4190
+Epoch: 10, Training Loss: 0.0818, Train MSE: 0.0818, r (train): 0.6094, Test MSE: 0.1686, r (test): -0.4283
+Epoch: 11, Training Loss: 0.0896, Train MSE: 0.0896, r (train): 0.6520, Test MSE: 0.1800, r (test): -0.4120
+Epoch: 12, Training Loss: 0.0742, Train MSE: 0.0742, r (train): 0.6037, Test MSE: 0.1390, r (test): -0.3135
+Epoch: 13, Training Loss: 0.0890, Train MSE: 0.0890, r (train): 0.5892, Test MSE: 0.1382, r (test): -0.3438
+Epoch: 14, Training Loss: 0.0469, Train MSE: 0.0469, r (train): 0.5854, Test MSE: 0.1351, r (test): -0.4151
+Epoch: 15, Training Loss: 0.1292, Train MSE: 0.1292, r (train): 0.5316, Test MSE: 0.1972, r (test): -0.4084
+Epoch: 16, Training Loss: 0.0607, Train MSE: 0.0607, r (train): 0.6281, Test MSE: 0.1378, r (test): -0.3355
+Epoch: 17, Training Loss: 0.0561, Train MSE: 0.0561, r (train): 0.7275, Test MSE: 0.1409, r (test): -0.3828
+Epoch: 18, Training Loss: 0.0875, Train MSE: 0.0875, r (train): 0.7644, Test MSE: 0.1810, r (test): -0.3563
+Epoch: 19, Training Loss: 0.0925, Train MSE: 0.0925, r (train): 0.8087, Test MSE: 0.1816, r (test): -0.2834
+Epoch: 20, Training Loss: 0.0811, Train MSE: 0.0811, r (train): 0.8241, Test MSE: 0.1638, r (test): -0.2479
+Epoch: 21, Training Loss: 0.0714, Train MSE: 0.0714, r (train): 0.8128, Test MSE: 0.1618, r (test): -0.2810
+Epoch: 22, Training Loss: 0.0634, Train MSE: 0.0634, r (train): 0.8151, Test MSE: 0.1627, r (test): -0.3207
+Epoch: 23, Training Loss: 0.0764, Train MSE: 0.0764, r (train): 0.7864, Test MSE: 0.1748, r (test): -0.3615
+Epoch: 24, Training Loss: 0.0722, Train MSE: 0.0722, r (train): 0.8214, Test MSE: 0.1696, r (test): -0.3306
+Epoch: 25, Training Loss: 0.0661, Train MSE: 0.0661, r (train): 0.8005, Test MSE: 0.1693, r (test): -0.3325
+Epoch: 26, Training Loss: 0.0984, Train MSE: 0.0984, r (train): 0.6611, Test MSE: 0.2057, r (test): -0.3529
+Epoch: 27, Training Loss: 0.0628, Train MSE: 0.0628, r (train): 0.8039, Test MSE: 0.1650, r (test): -0.3344
+Epoch: 28, Training Loss: 0.0713, Train MSE: 0.0713, r (train): 0.8057, Test MSE: 0.1372, r (test): -0.3415
+Epoch: 29, Training Loss: 0.0653, Train MSE: 0.0653, r (train): 0.8241, Test MSE: 0.1541, r (test): -0.3041
+Epoch: 30, Training Loss: 0.0401, Train MSE: 0.0401, r (train): 0.8697, Test MSE: 0.1152, r (test): -0.1532
+Epoch: 31, Training Loss: 0.0539, Train MSE: 0.0539, r (train): 0.8107, Test MSE: 0.1177, r (test): -0.3462
+Epoch: 32, Training Loss: 0.0584, Train MSE: 0.0584, r (train): 0.8254, Test MSE: 0.1627, r (test): -0.3580
+Epoch: 33, Training Loss: 0.0747, Train MSE: 0.0747, r (train): 0.8541, Test MSE: 0.1714, r (test): -0.1782
+Epoch: 34, Training Loss: 0.0570, Train MSE: 0.0570, r (train): 0.8481, Test MSE: 0.1324, r (test): -0.1397
+Epoch: 35, Training Loss: 0.0314, Train MSE: 0.0314, r (train): 0.8604, Test MSE: 0.1113, r (test): -0.2202
+Epoch: 36, Training Loss: 0.0272, Train MSE: 0.0272, r (train): 0.8649, Test MSE: 0.1176, r (test): -0.2551
+Epoch: 37, Training Loss: 0.0279, Train MSE: 0.0279, r (train): 0.8654, Test MSE: 0.1257, r (test): -0.2804
+Epoch: 38, Training Loss: 0.0382, Train MSE: 0.0382, r (train): 0.8467, Test MSE: 0.1381, r (test): -0.1654
+Epoch: 39, Training Loss: 0.0394, Train MSE: 0.0394, r (train): 0.8672, Test MSE: 0.1102, r (test): -0.0158
+Epoch: 40, Training Loss: 0.0261, Train MSE: 0.0261, r (train): 0.8542, Test MSE: 0.1064, r (test): -0.1500
+Epoch: 41, Training Loss: 0.0256, Train MSE: 0.0256, r (train): 0.8464, Test MSE: 0.1074, r (test): -0.1101
+Epoch: 42, Training Loss: 0.0236, Train MSE: 0.0236, r (train): 0.8396, Test MSE: 0.1065, r (test): -0.1548
+Epoch: 43, Training Loss: 0.0265, Train MSE: 0.0265, r (train): 0.8216, Test MSE: 0.1208, r (test): -0.3009
+Epoch: 44, Training Loss: 0.0246, Train MSE: 0.0246, r (train): 0.8747, Test MSE: 0.1356, r (test): -0.1926
+Epoch: 45, Training Loss: 0.0184, Train MSE: 0.0184, r (train): 0.8736, Test MSE: 0.1014, r (test): -0.0742
+Epoch: 46, Training Loss: 0.0287, Train MSE: 0.0287, r (train): 0.7959, Test MSE: 0.1216, r (test): -0.2531
+Epoch: 47, Training Loss: 0.0324, Train MSE: 0.0324, r (train): 0.8394, Test MSE: 0.1221, r (test): -0.1848
+Epoch: 48, Training Loss: 0.0348, Train MSE: 0.0348, r (train): 0.8012, Test MSE: 0.1179, r (test): -0.0568
+Epoch: 49, Training Loss: 0.0217, Train MSE: 0.0217, r (train): 0.8381, Test MSE: 0.1198, r (test): -0.2580
+Epoch: 50, Training Loss: 0.0456, Train MSE: 0.0456, r (train): 0.8504, Test MSE: 0.1413, r (test): -0.2075
+Epoch: 51, Training Loss: 0.0579, Train MSE: 0.0579, r (train): 0.8830, Test MSE: 0.1523, r (test): -0.2017
+Epoch: 52, Training Loss: 0.0615, Train MSE: 0.0615, r (train): 0.8524, Test MSE: 0.1744, r (test): -0.2820
+Epoch: 53, Training Loss: 0.0661, Train MSE: 0.0661, r (train): 0.8581, Test MSE: 0.1625, r (test): -0.2340
+Epoch: 54, Training Loss: 0.1097, Train MSE: 0.1097, r (train): 0.7981, Test MSE: 0.2132, r (test): -0.3148
+Epoch: 55, Training Loss: 0.0853, Train MSE: 0.0853, r (train): 0.8395, Test MSE: 0.1963, r (test): -0.2803
+Epoch: 56, Training Loss: 0.0943, Train MSE: 0.0943, r (train): 0.8194, Test MSE: 0.2106, r (test): -0.2535
+Epoch: 57, Training Loss: 0.0784, Train MSE: 0.0784, r (train): 0.8533, Test MSE: 0.1767, r (test): -0.1818
+Epoch: 58, Training Loss: 0.0314, Train MSE: 0.0314, r (train): 0.8822, Test MSE: 0.1340, r (test): -0.2730
+Epoch: 59, Training Loss: 0.0471, Train MSE: 0.0471, r (train): 0.8521, Test MSE: 0.1343, r (test): -0.1915
+Epoch: 60, Training Loss: 0.0299, Train MSE: 0.0299, r (train): 0.8565, Test MSE: 0.0993, r (test): -0.0441
+Epoch: 61, Training Loss: 0.0220, Train MSE: 0.0220, r (train): 0.8594, Test MSE: 0.1010, r (test): -0.1410
+Epoch: 62, Training Loss: 0.0230, Train MSE: 0.0230, r (train): 0.8437, Test MSE: 0.0938, r (test): 0.0393
+Epoch: 63, Training Loss: 0.0228, Train MSE: 0.0228, r (train): 0.8563, Test MSE: 0.1026, r (test): 0.0467
+Epoch: 64, Training Loss: 0.0249, Train MSE: 0.0249, r (train): 0.8144, Test MSE: 0.1201, r (test): -0.2928
+Epoch: 65, Training Loss: 0.0266, Train MSE: 0.0266, r (train): 0.8661, Test MSE: 0.0973, r (test): -0.0966
+Epoch: 66, Training Loss: 0.0268, Train MSE: 0.0268, r (train): 0.8814, Test MSE: 0.1343, r (test): -0.2906
+Epoch: 67, Training Loss: 0.0474, Train MSE: 0.0474, r (train): 0.8840, Test MSE: 0.1301, r (test): -0.2409
+Epoch: 68, Training Loss: 0.0465, Train MSE: 0.0465, r (train): 0.8910, Test MSE: 0.1330, r (test): -0.1750
+Epoch: 69, Training Loss: 0.0359, Train MSE: 0.0359, r (train): 0.8916, Test MSE: 0.1254, r (test): -0.1917
+Epoch: 70, Training Loss: 0.0196, Train MSE: 0.0196, r (train): 0.8917, Test MSE: 0.1050, r (test): -0.1795
+Epoch: 71, Training Loss: 0.0190, Train MSE: 0.0190, r (train): 0.8940, Test MSE: 0.1009, r (test): -0.1202
+Epoch: 72, Training Loss: 0.0212, Train MSE: 0.0212, r (train): 0.8793, Test MSE: 0.1074, r (test): -0.1531
+Epoch: 73, Training Loss: 0.0268, Train MSE: 0.0268, r (train): 0.8485, Test MSE: 0.0886, r (test): 0.1109
+Epoch: 74, Training Loss: 0.0242, Train MSE: 0.0242, r (train): 0.8464, Test MSE: 0.1046, r (test): -0.0986
+Epoch: 75, Training Loss: 0.0238, Train MSE: 0.0238, r (train): 0.8203, Test MSE: 0.1094, r (test): -0.1310
+Epoch: 76, Training Loss: 0.0226, Train MSE: 0.0226, r (train): 0.8753, Test MSE: 0.1254, r (test): -0.2545
+Epoch: 77, Training Loss: 0.0301, Train MSE: 0.0301, r (train): 0.8842, Test MSE: 0.1032, r (test): -0.1385
+Epoch: 78, Training Loss: 0.0501, Train MSE: 0.0501, r (train): 0.8872, Test MSE: 0.1324, r (test): -0.0720
+Epoch: 79, Training Loss: 0.0263, Train MSE: 0.0263, r (train): 0.8941, Test MSE: 0.1173, r (test): -0.1577
+Epoch: 80, Training Loss: 0.0212, Train MSE: 0.0212, r (train): 0.8802, Test MSE: 0.0900, r (test): -0.0291
+Epoch: 81, Training Loss: 0.0218, Train MSE: 0.0218, r (train): 0.8756, Test MSE: 0.1161, r (test): -0.3249
+Epoch: 82, Training Loss: 0.0189, Train MSE: 0.0189, r (train): 0.8969, Test MSE: 0.0899, r (test): -0.0166
+Epoch: 83, Training Loss: 0.0290, Train MSE: 0.0290, r (train): 0.8753, Test MSE: 0.1204, r (test): -0.1143
+Epoch: 84, Training Loss: 0.0168, Train MSE: 0.0168, r (train): 0.8748, Test MSE: 0.1010, r (test): -0.2621
+Epoch: 85, Training Loss: 0.0120, Train MSE: 0.0120, r (train): 0.9280, Test MSE: 0.1048, r (test): -0.1448
+Epoch: 86, Training Loss: 0.0149, Train MSE: 0.0149, r (train): 0.9163, Test MSE: 0.1118, r (test): -0.2085
+Epoch: 87, Training Loss: 0.0250, Train MSE: 0.0250, r (train): 0.8847, Test MSE: 0.1178, r (test): -0.1605
+Epoch: 88, Training Loss: 0.0188, Train MSE: 0.0188, r (train): 0.8734, Test MSE: 0.0935, r (test): -0.0320
+Epoch: 89, Training Loss: 0.0223, Train MSE: 0.0223, r (train): 0.8923, Test MSE: 0.0934, r (test): -0.0157
+Epoch: 90, Training Loss: 0.0248, Train MSE: 0.0248, r (train): 0.9119, Test MSE: 0.1165, r (test): -0.1885
+Epoch: 91, Training Loss: 0.0400, Train MSE: 0.0400, r (train): 0.8965, Test MSE: 0.1355, r (test): 0.0190
+Epoch: 92, Training Loss: 0.0368, Train MSE: 0.0368, r (train): 0.8638, Test MSE: 0.1413, r (test): -0.2350
+Epoch: 93, Training Loss: 0.0212, Train MSE: 0.0212, r (train): 0.8916, Test MSE: 0.1028, r (test): 0.0408
+Epoch: 94, Training Loss: 0.0122, Train MSE: 0.0122, r (train): 0.9178, Test MSE: 0.1073, r (test): -0.1595
+Epoch: 95, Training Loss: 0.0123, Train MSE: 0.0123, r (train): 0.9377, Test MSE: 0.1163, r (test): -0.2494
+Epoch: 96, Training Loss: 0.0124, Train MSE: 0.0124, r (train): 0.9344, Test MSE: 0.1045, r (test): -0.1932
+Epoch: 97, Training Loss: 0.0139, Train MSE: 0.0139, r (train): 0.9328, Test MSE: 0.1092, r (test): -0.2772
+Epoch: 98, Training Loss: 0.0269, Train MSE: 0.0269, r (train): 0.9031, Test MSE: 0.1107, r (test): -0.0578
+Epoch: 99, Training Loss: 0.0226, Train MSE: 0.0226, r (train): 0.9060, Test MSE: 0.0930, r (test): 0.0024
+Predicted tensors for training set: 
+tensor([ 0.7370,  0.7483,  0.0320,  0.3226,  0.5404,  0.2574,  0.6145,  0.2125,
+         0.1680,  0.7190,  0.8383,  0.1177,  0.5132,  0.2885,  0.5286,  0.5020,
+         0.4060,  0.3500,  0.4676,  0.0105,  0.2709,  0.1112,  0.3824,  0.3638,
+         0.3527, -0.0228,  0.7641,  0.7263,  0.4019,  0.4974,  0.0055,  0.5555,
+         0.5011,  0.6105, -0.0270,  0.3520,  0.6807,  0.7532,  0.0212,  0.6129,
+         0.2130,  0.5589,  0.0546, -0.0257,  0.7127, -0.0754,  0.1307,  0.2015,
+         0.8196, -0.0897,  0.6044,  0.6639,  0.2837,  0.6019,  0.3962,  0.6081,
+         0.8325,  0.5753,  0.8573,  0.9620,  0.8605,  0.1786,  0.1764,  0.7973,
+         0.6983,  0.9063,  0.9885,  0.4833,  0.5904,  0.4412,  0.5545, -0.0158])
+Target tensorsfor training set: 
+tensor([0.7371, 0.6671, 0.0636, 0.4373, 0.7144, 0.3453, 0.6465, 0.2255, 0.3077,
+        0.7950, 0.9656, 0.2169, 0.5780, 0.4640, 0.7596, 0.7270, 0.6577, 0.8411,
+        0.9535, 0.2649, 0.4341, 0.2916, 0.5187, 0.5220, 0.4440, 0.0389, 0.8728,
+        0.7901, 0.5102, 0.5573, 0.1218, 0.6595, 0.4993, 0.6992, 0.2464, 0.4036,
+        0.8453, 0.8561, 0.1493, 0.7125, 0.3309, 0.7171, 0.2594, 0.1294, 0.9127,
+        0.0246, 0.2394, 0.5178, 0.9492, 0.0763, 0.6240, 0.6846, 0.3174, 0.8391,
+        0.3829, 0.5783, 0.8363, 0.5023, 0.7507, 0.8556, 0.7497, 0.0981, 0.1360,
+        0.7372, 0.6199, 0.8988, 0.9117, 0.4149, 0.5719, 0.4513, 0.4818, 0.0478])
+Correlation for training set: 0.9060331159929581
+Predicted tensors for test set: 
+tensor([0.5586, 0.5426, 0.7702, 0.5284, 0.4806, 0.6961, 0.3444, 0.5249, 0.6112,
+        0.4718, 0.5928, 0.4266, 0.3617, 0.4506, 0.5023, 0.3819, 0.6426, 0.4203])
+Target tensors for test set: 
+tensor([0.7791, 0.5658, 0.5300, 0.9621, 0.4526, 0.9215, 0.8524, 0.4654, 0.5564,
+        0.5779, 0.1055, 0.7462, 0.8418, 0.9150, 0.9072, 0.1295, 0.6576, 0.2271])
+Correlation for test set: 0.002413012631144572
+Seed: 37
+Fold losses: [tensor(0.0302), tensor(0.0340), tensor(0.0161), tensor(0.0081), tensor(0.0226)]
+Fold MSE values: [tensor(0.0302), tensor(0.0340), tensor(0.0161), tensor(0.0081), tensor(0.0226)]
+Target training values: [tensor([0.9535, 0.2649, 0.4341, 0.2916, 0.5187, 0.5220, 0.4440, 0.0389, 0.8728,
+        0.7901, 0.5102, 0.5573, 0.1218, 0.6595, 0.4993, 0.6992, 0.2464, 0.4036,
+        0.8453, 0.8561, 0.1493, 0.7125, 0.3309, 0.7171, 0.2594, 0.1294, 0.9127,
+        0.0246, 0.2394, 0.5178, 0.9492, 0.0763, 0.6240, 0.6846, 0.3174, 0.8391,
+        0.3829, 0.5783, 0.8363, 0.5023, 0.7507, 0.8556, 0.7497, 0.0981, 0.1360,
+        0.7372, 0.6199, 0.8988, 0.9117, 0.4149, 0.5719, 0.4513, 0.4818, 0.0478,
+        0.7791, 0.5658, 0.5300, 0.9621, 0.4526, 0.9215, 0.8524, 0.4654, 0.5564,
+        0.5779, 0.1055, 0.7462, 0.8418, 0.9150, 0.9072, 0.1295, 0.6576, 0.2271]), tensor([0.7371, 0.6671, 0.0636, 0.4373, 0.7144, 0.3453, 0.6465, 0.2255, 0.3077,
+        0.7950, 0.9656, 0.2169, 0.5780, 0.4640, 0.7596, 0.7270, 0.6577, 0.8411,
+        0.8453, 0.8561, 0.1493, 0.7125, 0.3309, 0.7171, 0.2594, 0.1294, 0.9127,
+        0.0246, 0.2394, 0.5178, 0.9492, 0.0763, 0.6240, 0.6846, 0.3174, 0.8391,
+        0.3829, 0.5783, 0.8363, 0.5023, 0.7507, 0.8556, 0.7497, 0.0981, 0.1360,
+        0.7372, 0.6199, 0.8988, 0.9117, 0.4149, 0.5719, 0.4513, 0.4818, 0.0478,
+        0.7791, 0.5658, 0.5300, 0.9621, 0.4526, 0.9215, 0.8524, 0.4654, 0.5564,
+        0.5779, 0.1055, 0.7462, 0.8418, 0.9150, 0.9072, 0.1295, 0.6576, 0.2271]), tensor([0.7371, 0.6671, 0.0636, 0.4373, 0.7144, 0.3453, 0.6465, 0.2255, 0.3077,
+        0.7950, 0.9656, 0.2169, 0.5780, 0.4640, 0.7596, 0.7270, 0.6577, 0.8411,
+        0.9535, 0.2649, 0.4341, 0.2916, 0.5187, 0.5220, 0.4440, 0.0389, 0.8728,
+        0.7901, 0.5102, 0.5573, 0.1218, 0.6595, 0.4993, 0.6992, 0.2464, 0.4036,
+        0.3829, 0.5783, 0.8363, 0.5023, 0.7507, 0.8556, 0.7497, 0.0981, 0.1360,
+        0.7372, 0.6199, 0.8988, 0.9117, 0.4149, 0.5719, 0.4513, 0.4818, 0.0478,
+        0.7791, 0.5658, 0.5300, 0.9621, 0.4526, 0.9215, 0.8524, 0.4654, 0.5564,
+        0.5779, 0.1055, 0.7462, 0.8418, 0.9150, 0.9072, 0.1295, 0.6576, 0.2271]), tensor([0.7371, 0.6671, 0.0636, 0.4373, 0.7144, 0.3453, 0.6465, 0.2255, 0.3077,
+        0.7950, 0.9656, 0.2169, 0.5780, 0.4640, 0.7596, 0.7270, 0.6577, 0.8411,
+        0.9535, 0.2649, 0.4341, 0.2916, 0.5187, 0.5220, 0.4440, 0.0389, 0.8728,
+        0.7901, 0.5102, 0.5573, 0.1218, 0.6595, 0.4993, 0.6992, 0.2464, 0.4036,
+        0.8453, 0.8561, 0.1493, 0.7125, 0.3309, 0.7171, 0.2594, 0.1294, 0.9127,
+        0.0246, 0.2394, 0.5178, 0.9492, 0.0763, 0.6240, 0.6846, 0.3174, 0.8391,
+        0.7791, 0.5658, 0.5300, 0.9621, 0.4526, 0.9215, 0.8524, 0.4654, 0.5564,
+        0.5779, 0.1055, 0.7462, 0.8418, 0.9150, 0.9072, 0.1295, 0.6576, 0.2271]), tensor([0.7371, 0.6671, 0.0636, 0.4373, 0.7144, 0.3453, 0.6465, 0.2255, 0.3077,
+        0.7950, 0.9656, 0.2169, 0.5780, 0.4640, 0.7596, 0.7270, 0.6577, 0.8411,
+        0.9535, 0.2649, 0.4341, 0.2916, 0.5187, 0.5220, 0.4440, 0.0389, 0.8728,
+        0.7901, 0.5102, 0.5573, 0.1218, 0.6595, 0.4993, 0.6992, 0.2464, 0.4036,
+        0.8453, 0.8561, 0.1493, 0.7125, 0.3309, 0.7171, 0.2594, 0.1294, 0.9127,
+        0.0246, 0.2394, 0.5178, 0.9492, 0.0763, 0.6240, 0.6846, 0.3174, 0.8391,
+        0.3829, 0.5783, 0.8363, 0.5023, 0.7507, 0.8556, 0.7497, 0.0981, 0.1360,
+        0.7372, 0.6199, 0.8988, 0.9117, 0.4149, 0.5719, 0.4513, 0.4818, 0.0478])]
+Prediction training values: [tensor([0.9910, 0.2967, 0.5066, 0.3306, 0.5233, 0.6024, 0.3682, 0.0281, 0.8597,
+        0.7587, 0.4794, 0.5225, 0.1089, 0.5387, 0.4684, 0.5737, 0.1820, 0.4543,
+        0.8055, 0.8096, 0.1786, 0.7273, 0.3606, 0.7372, 0.2185, 0.2782, 0.9370,
+        0.1118, 0.2970, 0.6128, 1.0283, 0.1161, 0.8001, 0.8847, 0.5033, 1.2373,
+        0.7209, 0.6985, 1.0374, 0.7152, 0.8719, 1.0711, 1.0427, 0.3750, 0.4429,
+        0.9454, 0.9524, 1.1292, 1.1122, 0.6565, 0.7988, 0.8133, 0.8001, 0.4945,
+        1.0629, 0.8301, 0.9170, 1.0569, 0.5837, 1.0312, 1.0010, 0.5602, 0.7915,
+        0.6541, 0.1667, 0.7620, 0.8700, 0.9195, 0.9111, 0.2420, 0.6752, 0.3726]), tensor([0.9129, 0.7921, 0.1661, 0.5440, 0.8752, 0.5526, 0.7545, 0.5560, 0.4602,
+        0.9374, 1.1257, 0.4613, 0.7835, 0.6367, 0.9478, 0.8938, 0.8201, 1.1078,
+        0.9572, 0.9514, 0.4649, 0.7388, 0.3715, 0.7549, 0.3942, 0.1869, 0.9912,
+        0.1488, 0.3798, 0.5683, 1.0308, 0.1438, 0.7346, 0.7016, 0.4753, 0.9101,
+        0.5014, 0.7282, 0.9778, 0.6666, 0.8986, 1.0276, 1.0401, 0.3641, 0.4562,
+        0.9131, 0.9598, 1.0613, 1.1328, 0.7396, 0.8334, 0.7681, 0.8494, 0.4333,
+        1.0426, 0.8037, 0.8177, 1.0929, 0.5720, 1.0540, 0.9984, 0.6380, 0.7788,
+        0.6983, 0.2538, 0.7960, 0.8657, 0.9262, 0.9244, 0.1812, 0.7335, 0.3144]), tensor([0.6571, 0.6562, 0.1049, 0.5211, 0.6397, 0.3949, 0.5994, 0.1366, 0.3259,
+        0.6921, 0.7939, 0.2243, 0.5237, 0.4388, 0.6198, 0.5894, 0.4873, 0.7017,
+        0.7847, 0.0500, 0.5127, 0.1366, 0.4739, 0.3697, 0.4557, 0.0925, 0.8329,
+        0.4929, 0.4985, 0.5396, 0.1118, 0.3884, 0.4468, 0.6967, 0.3682, 0.6057,
+        0.6716, 0.7273, 0.9682, 0.7186, 0.8310, 0.9367, 1.0436, 0.4702, 0.5119,
+        0.8417, 0.6809, 0.9598, 0.9962, 0.5198, 0.6378, 0.4919, 0.5544, 0.1067,
+        0.8250, 0.5800, 0.5140, 0.9564, 0.4324, 0.9258, 0.8781, 0.4766, 0.5044,
+        0.5306, 0.0635, 0.6913, 0.8181, 0.8861, 0.8484, 0.1546, 0.6926, 0.0928]), tensor([ 0.6637,  0.5809,  0.0841,  0.3272,  0.5814,  0.2880,  0.5446,  0.0295,
+         0.2590,  0.7001,  0.7830,  0.1843,  0.4024,  0.3341,  0.5761,  0.6383,
+         0.6685,  0.6383,  0.8061,  0.3078,  0.4330,  0.1986,  0.4688,  0.4958,
+         0.4108, -0.0017,  0.8425,  0.8157,  0.4974,  0.4993,  0.0671,  0.7586,
+         0.4497,  0.6218,  0.3654,  0.3738,  0.8025,  0.8034,  0.0624,  0.6126,
+         0.3014,  0.6256,  0.2241,  0.1063,  0.7376, -0.0743,  0.1942,  0.3460,
+         0.8203, -0.0380,  0.5793,  0.5567,  0.3120,  0.6185,  0.6935,  0.5222,
+         0.5445,  0.9895,  0.4548,  0.8810,  0.8863,  0.4838,  0.6322,  0.6285,
+         0.1677,  0.7395,  0.8623,  0.9763,  0.8721,  0.1382,  0.6851,  0.2551]), tensor([ 0.7370,  0.7483,  0.0320,  0.3226,  0.5404,  0.2574,  0.6145,  0.2125,
+         0.1680,  0.7190,  0.8383,  0.1177,  0.5132,  0.2885,  0.5286,  0.5020,
+         0.4060,  0.3500,  0.4676,  0.0105,  0.2709,  0.1112,  0.3824,  0.3638,
+         0.3527, -0.0228,  0.7641,  0.7263,  0.4019,  0.4974,  0.0055,  0.5555,
+         0.5011,  0.6105, -0.0270,  0.3520,  0.6807,  0.7532,  0.0212,  0.6129,
+         0.2130,  0.5589,  0.0546, -0.0257,  0.7127, -0.0754,  0.1307,  0.2015,
+         0.8196, -0.0897,  0.6044,  0.6639,  0.2837,  0.6019,  0.3962,  0.6081,
+         0.8325,  0.5753,  0.8573,  0.9620,  0.8605,  0.1786,  0.1764,  0.7973,
+         0.6983,  0.9063,  0.9885,  0.4833,  0.5904,  0.4412,  0.5545, -0.0158])]
+Target values: [array([0.73709923, 0.6671056 , 0.06358391, 0.4372734 , 0.71435624,
+       0.34531343, 0.6464906 , 0.2254639 , 0.30766785, 0.79497874,
+       0.96564525, 0.21692123, 0.578045  , 0.46398443, 0.75962484,
+       0.72703534, 0.65769196, 0.84113044], dtype=float32), array([0.95346546, 0.2649091 , 0.43409458, 0.29163042, 0.518717  ,
+       0.5220161 , 0.44401234, 0.03887437, 0.8728059 , 0.7900961 ,
+       0.51015127, 0.55726975, 0.12180944, 0.659493  , 0.4993471 ,
+       0.69921327, 0.24636388, 0.40355092], dtype=float32), array([0.84525365, 0.85610735, 0.14931566, 0.71252435, 0.33092642,
+       0.71714455, 0.25936916, 0.12937951, 0.912732  , 0.02463444,
+       0.23939352, 0.51780254, 0.9491663 , 0.07633217, 0.62399   ,
+       0.6846425 , 0.31742746, 0.8390776 ], dtype=float32), array([0.38285765, 0.57832706, 0.83626515, 0.50225437, 0.75073236,
+       0.85557973, 0.7497406 , 0.09805249, 0.1360485 , 0.73719215,
+       0.6198749 , 0.89876264, 0.9116711 , 0.41493568, 0.57190746,
+       0.45128736, 0.48182514, 0.04781396], dtype=float32), array([0.77910316, 0.5658469 , 0.52996147, 0.96213573, 0.45263878,
+       0.9215425 , 0.8524316 , 0.46544507, 0.55641776, 0.5778506 ,
+       0.10552448, 0.7462256 , 0.8417677 , 0.91498566, 0.9071598 ,
+       0.12948532, 0.6576234 , 0.22711647], dtype=float32)]
+Prediction values: [array([0.3740946 , 0.7045035 , 0.4708459 , 0.7383483 , 0.4241007 ,
+       0.6434965 , 0.6032683 , 1.4210443 , 0.59458256, 0.5250159 ,
+       0.691563  , 0.7560232 , 0.8775663 , 0.773762  , 0.75249994,
+       0.42805752, 0.38751814, 0.22431096], dtype=float32), array([0.9211666 , 0.6923312 , 0.6052198 , 0.85250205, 0.7551349 ,
+       0.89811695, 0.7412362 , 0.6523391 , 0.90371114, 0.6687251 ,
+       0.80310893, 0.6340752 , 1.0043417 , 0.6618591 , 0.7908873 ,
+       0.8471233 , 0.8692834 , 0.8010049 ], dtype=float32), array([0.57294035, 0.7362985 , 0.6322703 , 0.5924549 , 0.74543685,
+       0.55133003, 0.5435347 , 0.69570804, 0.44569558, 0.6159604 ,
+       0.6088195 , 0.5287094 , 0.6327646 , 0.6070048 , 0.74114597,
+       0.505655  , 0.69663   , 0.01908313], dtype=float32), array([0.3716811 , 0.38306516, 0.5061412 , 0.47503385, 0.5231432 ,
+       0.4889939 , 0.5127561 , 0.28672212, 0.42751974, 0.38518244,
+       0.4958697 , 0.51914084, 0.4869836 , 0.6228564 , 0.39872694,
+       0.4034097 , 0.5255878 , 0.45466313], dtype=float32), array([0.55861413, 0.5426405 , 0.77022123, 0.52840674, 0.48057315,
+       0.6960574 , 0.3443669 , 0.5248918 , 0.61124027, 0.4717841 ,
+       0.592799  , 0.42657024, 0.36165884, 0.45058754, 0.50234014,
+       0.381934  , 0.6426232 , 0.42033508], dtype=float32)]
+Time taken: 1019.7485918998718 seconds
