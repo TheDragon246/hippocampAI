@@ -218,21 +218,7 @@ jupyter notebook "final_ensemble_15sep25/ensemble_final_22sep25.ipynb"
 
 ## 📈 Data Pipeline
 
-```mermaid
-graph TD
-    A[Raw T1 MRI Scans] --> B[FreeSurfer 4.5<br/>Segmentation]
-    B --> C[Region Extraction<br/>& Normalization]
-    C --> D1[DenseNet<br/>Volumetric .npy]
-    C --> D2[PointNet++<br/>8-KNN Graphs .pt]
-    C --> D3[Radiomics<br/>Features .csv]
-    D1 --> E1[DenseNet Predictions]
-    D2 --> E2[PointNet Predictions]
-    D3 --> E3[Random Forest Predictions]
-    E1 --> F[Ensemble Models]
-    E2 --> F
-    E3 --> F
-    F --> G[Final Results]
-```
+![Ensemble Model Pipeline](./ensemble_flowchart_revised_final.svg)
 
 ---
 
@@ -266,8 +252,11 @@ graph TD
 ### Radiomics Analysis
 - **`radiomic_results/pyradiomics_final_4924_defaultvalues_new_regions_1_9_25_correctedstandard.ipynb`** - Feature extraction and analysis
 
+### Ensemble Analysis
+- **`radiomic_results/pyradiomics_final_4924_defaultvalues_new_regions_1_9_25_correctedstandard.ipynb`** - Feature extraction and analysis
+
 ### Behavioral Data
-- **`radiomic_results/DataAnalysisWith90Participants_Jupyter.csv`** - Participant IDs and Model Building Total scores
+- **`final_ensemble_15sep25/ensemble_final_22sep25.ipynb`** - Feature extraction and analysis
 
 ### Predictions
 - **`final_ensemble_15sep25/densenet_*_predictions_with_average_and_id.csv`** - DenseNet predictions (7 regions)
@@ -346,7 +335,7 @@ If you use this code or data, please cite:
 - Steven M. Weisberg, PhD
 - Email: stevenweisberg@ufl.edu
 
-**Lead Developer:**
+**Lead Developer and First Author:**
 - Ashish K. Sahoo
 - Email: ashishkumarsahoo@ufl.edu
 
