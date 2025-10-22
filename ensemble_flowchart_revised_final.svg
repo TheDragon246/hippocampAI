@@ -1,0 +1,81 @@
+<svg viewBox="-30 0 730 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Column Labels -->
+  <text x="50" y="50" font-size="20" text-anchor="middle" font-weight="bold" fill="black">INPUT</text>
+  <text x="50" y="200" font-size="20" text-anchor="middle" font-weight="bold" fill="black">DATA</text>
+  <text x="50" y="220" font-size="20" text-anchor="middle" font-weight="bold" fill="black">PROCESSING</text>
+  <text x="50" y="360" font-size="20" text-anchor="middle" font-weight="bold" fill="black">MODELS</text>
+  <text x="50" y="520" font-size="20" text-anchor="middle" font-weight="bold" fill="black">OUTPUT</text>
+  
+  <!-- Input Box -->
+  <rect x="130" y="10" width="450" height="80" fill="black" stroke="black" stroke-width="2" />
+  <text x="355" y="40" font-size="20" text-anchor="middle" fill="white">T1 MRI Data</text>
+  <text x="355" y="70" font-size="18" text-anchor="middle" fill="white">labeled with navigational ability behavioral data</text>
+  
+  <!-- Data Processing Boxes -->
+  <rect x="130" y="160" width="150" height="80" fill="black" stroke="black" stroke-width="2" />
+  <text x="205" y="180" font-size="18" text-anchor="middle" fill="white">Graph formation</text>
+  <text x="205" y="205" font-size="18" text-anchor="middle" fill="white">using</text>
+  <text x="205" y="230" font-size="18" text-anchor="middle" fill="white">KNN algorithm</text>
+  
+  <rect x="450" y="160" width="150" height="80" fill="black" stroke="black" stroke-width="2" />
+  <text x="525" y="190" font-size="18" text-anchor="middle" fill="white">Radiomic feature</text>
+  <text x="525" y="215" font-size="18" text-anchor="middle" fill="white">extraction</text>
+  
+  <!-- Model Boxes -->
+  <rect x="130" y="320" width="150" height="80" fill="black" stroke="black" stroke-width="2" />
+  <text x="205" y="350" font-size="18" text-anchor="middle" fill="white">GCNN</text>
+  <text x="205" y="375" font-size="18" text-anchor="middle" fill="white">Pointnet++</text>
+  
+  <rect x="290" y="320" width="150" height="80" fill="black" stroke="black" stroke-width="2" />
+  <text x="365" y="350" font-size="18" text-anchor="middle" fill="white">3D CNN</text>
+  <text x="365" y="375" font-size="18" text-anchor="middle" fill="white">Densenet</text>
+  
+  <rect x="450" y="320" width="150" height="80" fill="black" stroke="black" stroke-width="2" />
+  <text x="525" y="360" font-size="18" text-anchor="middle" fill="white">Random forest</text>
+  
+  <!-- Output Boxes -->
+  <rect x="290" y="480" width="150" height="80" fill="black" stroke="black" stroke-width="2" />
+  <text x="365" y="525" font-size="18" text-anchor="middle" fill="white">Model predictions</text>
+  
+  <!-- Ensemble models Box -->
+  <rect x="290" y="640" width="150" height="100" fill="black" stroke="black" stroke-width="2" />
+  <text x="365" y="670" font-size="18" text-anchor="middle" fill="white">Ensemble models</text>
+  <text x="365" y="695" font-size="18" text-anchor="middle" fill="white">Simple/Weighted</text>
+  <text x="365" y="720" font-size="18" text-anchor="middle" fill="white">average and MLP</text>
+  
+  <!-- Ensemble predictions Box -->
+  <rect x="290" y="800" width="150" height="60" fill="black" stroke="black" stroke-width="2" />
+  <text x="365" y="825" font-size="18" text-anchor="middle" fill="white">Ensemble</text>
+  <text x="365" y="850" font-size="18" text-anchor="middle" fill="white">predictions</text>
+  
+  <!-- Arrows -->
+  <!-- From Input to Data Processing -->
+  <path d="M205,90 L205,160" stroke="black" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <path d="M525,90 L525,160" stroke="black" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  
+  <!-- From Input to 3D CNN directly -->
+  <path d="M365,90 L365,320" stroke="black" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  
+  <!-- From Data Processing to Models -->
+  <path d="M205,240 L205,320" stroke="black" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <path d="M525,240 L525,320" stroke="black" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  
+  <!-- From Models to Model predictions -->
+  <path d="M205,400 L205,440 L290,480" stroke="black" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <path d="M365,400 L365,480" stroke="black" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <path d="M525,400 L525,440 L440,480" stroke="black" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  
+  <!-- From Model predictions to Ensemble models -->
+  <path d="M365,560 L365,640" stroke="black" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  
+  <!-- From Ensemble models to Ensemble predictions -->
+  <path d="M365,740 L365,800" stroke="black" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  
+  <!-- Definitions -->
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5"
+      markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="black" />
+    </marker>
+  </defs>
+</svg>
